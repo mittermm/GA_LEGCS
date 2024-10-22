@@ -1,0 +1,58 @@
+town_list = [
+    "dublin",       "antrim",   "craigavon",    "carlow",       "cavan",        "ennis",
+    "cork",         "derry",    "letterkenny",  "belfast",      "enniskillen",  "galway",
+    "tralee",       "naas",     "kilkenny",     "portlaoise",   "carrick",      "limerick",
+    "longford",     "dundalk",  "castlebar",    "navan",        "monaghan",     "tullamore",
+    "roscommon",    "sligo",    "clonmel",      "omagh",        "waterford",    "athlone",
+    "wexford",      "bray"
+]
+
+coordinates = [
+
+("dublin",3004,-2551     ),
+("antrim",2968,-879      ),
+("craigavon",2832,-1208  ),
+("carlow",2567,-3222     ),
+("cavan",2367,-1738      ),
+("ennis",1162,-3162      ),
+("cork",1497,-4368       ),
+("derry",2293,-487       ),
+("letterkenny",2028,-562 ),
+("belfast",3180,-1008    ),
+("enniskillen",2137,-1306),
+("galway",1153,-2627     ),
+("tralee",682,-3882      ),
+("naas",2768,-2748       ),
+("kilkenny",2368,-3411   ),
+("portlaoise",2368,-3007 ),
+("carrick",1808,-1787    ),
+("limerick",1427,-3411   ),
+("longford",2037,-2052   ),
+("dundalk",2927,-1738    ),
+("castlebar",982,-1922   ),
+("navan",2768,-2167      ),
+("monaghan",2518,-1408   ),
+("tullamore",2272,-2643  ),
+("roscommon",1728,-2142  ),
+("sligo",1558,-1412      ),
+("clonmel",2067,-3758    ),
+("omagh",2292,-1007      ),
+("waterford",2498,-3927  ),
+("athlone",1938,-2407    ),
+("wexford",2912,-3807    ),
+("bray",3128,-2707       )
+
+    ]
+    
+def idf_to_str(i):
+    s = ""
+    if i < 10:
+        s += '0'
+    if i < 100:
+        s += '0'
+    if i < 1000:
+        s += '0'
+    if i < 10000:
+        s += '0'
+    s = s + str(i)
+    return s
