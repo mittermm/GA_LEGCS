@@ -111,20 +111,41 @@ class GeneticAlgorithm:
         return child1, child2
 
     def mutate(self, edge_list):
-        remove_edges = []
-        add_edges = []
-        i = 0
-        while i < len(edge_list):
-            if random.random() < self.mutation_rate:
-                edge_list.pop(i)
-                r = random.random()
-                if r < 0.33:
-                    add_edges.append(get_random_edge())
-                elif r < 0.67:
-                    add_edges.append(get_random_edge())
-                    add_edges.append(get_random_edge())
-            else:
-                i += 1
+    
+        # add edge
+        if random.random() < self.mutation_rate:
+            for j in range(5):
+                [source, target, distance, speed, lanes] = get_random_edge()
+                added = False
+                for i in range(len(edge_list)):
+                    [s,t,d,sp,l] = edge_list[i]
+                    if s == source and t == target:
+                        edge_list[i] = [s,t,d,sp, str(int(l)+1) ]
+                        added = True
+                
+                if not added:
+                    edge_list.append([source, target, distance, speed, lanes])
+        
+        # remove edge
+        if random.random() < self.mutation_rate:
+            for i in range(5):
+                edge_to_remove = random.choice(range(len(edge_list)))
+                edge_list.pop(edge_to_remove)
+    
+        # remove_edges = []
+        # add_edges = []
+        # i = 0
+        # while i < len(edge_list):
+        #     if random.random() < self.mutation_rate:
+        #         edge_list.pop(i)
+        #         r = random.random()
+        #         if r < 0.33:
+        #             add_edges.append(get_random_edge())
+        #         elif r < 0.67:
+        #             add_edges.append(get_random_edge())
+        #             add_edges.append(get_random_edge())
+        #     else:
+        #         i += 1
         
         edge_list = heal(edge_list)
         return edge_list

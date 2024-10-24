@@ -4,9 +4,9 @@ import csv
 import math
 import os
 
-from csv2xml import csv_to_edg_xml
+from .csv2xml import csv_to_edg_xml
 
-from utils import town_list, coordinates, idf_to_str
+from .utils import town_list, coordinates, idf_to_str
 
 def gen_strongly_connected_graph(edge_size):
 

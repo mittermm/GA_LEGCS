@@ -76,6 +76,12 @@ town_coordinates = [
         ("bray",3128,-2707)
 ]
 
+def get_towns():
+    towns = []
+    for (t,_,_) in town_coordinates:
+        towns.append(t)
+    return towns
+
 def normalize(n, MIN_SIM, MAX_SIM):
     return ((n - MIN_SIM) / (MAX_SIM - MIN_SIM))
 

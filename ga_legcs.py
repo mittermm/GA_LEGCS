@@ -1,6 +1,6 @@
 from gnn.gnn_utils import get_model, normalize_list, normalize, GraphDataset
 from gnn.gnn import GNN
-from ga.ga_utils import get_initial_population, get_sims, get_graph_data
+from ga.ga_utils import get_initial_population, get_sims, get_graph_data, heal, get_towns
 from ga.ga import GeneticAlgorithm
 import os
 import csv
@@ -25,11 +25,11 @@ def simulate(edge_list, simID):
                     "edge",
                     id=edge_id,
                     attrib={
-                        "from": f,
-                        "to": t,
-                        "length": l,
-                        "speed": s,
-                        "numLanes": n
+                        "from": str(f),
+                        "to": str(t),
+                        "length": str(l),
+                        "speed": str(s),
+                        "numLanes": str(n)
                     })
         i += 1
     tree = ET.ElementTree(tree)
@@ -39,13 +39,15 @@ def simulate(edge_list, simID):
     os.system(command)
     
     avg_distance, avg_speed = run_simulation(config_path)
-    print("network " + simID
+    print("network " + simID + " with " + str(len(edge_list)) + " streets:"
         + "\n\taverage distance: " + str(avg_distance)
         + "\n\taverage speed:    " + str(avg_speed))
     
     time = avg_distance * avg_speed
     return time    
     
+def determine_fitness(travel_time, edge_list):
+    return travel_time + max(0, len(edge_list) - 100) * 0.001
 
 class GA_LEGCS(GeneticAlgorithm):
     
@@ -58,7 +60,76 @@ class GA_LEGCS(GeneticAlgorithm):
         self.sims_list = sims_list
         self.generations = generations
         self.mutation_rate = mutation_rate
-        self.fitness = sims_list.copy()
+        normalized_sims, n_min, n_max = normalize_list(sims_list.copy())
+        self.update_fitness(normalized_sims)
+    
+    def update_single_fitness(self, index, travel_time):
+        self.fitness[index] = determine_fitness(travel_time, self.population[index])
+    
+    def update_fitness(self, travel_times):
+        assert len(self.population) == self.pop_size
+        assert len(travel_times) == self.pop_size
+        self.fitness = [-1] * self.pop_size
+        
+        for i in range(self.pop_size):
+            self.update_single_fitness(i, travel_times[i])
+        
+        assert min(self.fitness) > -1
+    
+    def edge_based_crossover(self, edges_1, edges_2):
+        
+        # Randomly choose a subset of edges
+        crossover_point = len(edges_1) // 2
+        selected_edges_2 = edges_2[:crossover_point]
+        
+        child1 = edges_1[:crossover_point] + edges_2[crossover_point:]
+        child2 = edges_2[:crossover_point] + edges_1[crossover_point:]
+        
+        child1 = heal(child1)
+        child2 = heal(child2)
+        
+        return child1, child2
+    
+    def sub_graph_crossover(self, edges_1, edges_2):
+        shuffled_towns = sorted(get_towns(), key=lambda x: random.random())
+        crossover_point = len(shuffled_towns) // 2
+        
+        nodes_1 = shuffled_towns[:crossover_point]
+        nodes_2 = shuffled_towns[crossover_point:]
+        
+        child1 = []
+        child2 = []
+        
+        remaining_edges = []
+        for edge in edges_1:
+            if edge[0] in nodes_1 and edge[1] in nodes_1:
+                child1.append(edge)
+            elif edge[0] in nodes_2 and edge[1] in nodes_2:
+                child2.append(edge)
+            else:
+                remaining_edges.append(edge)
+        
+        for edge in edges_2:
+            if edge[0] in nodes_1 and edge[1] in nodes_1:
+                child2.append(edge)
+            elif edge[0] in nodes_2 and edge[1] in nodes_2:
+                child1.append(edge)
+            else:
+                remaining_edges.append(edge)
+        
+        b = True
+        for edge in remaining_edges:
+            if b:
+                child1.append(edge)
+                b = False
+            else:
+                child2.append(edge)
+                b = True
+
+        child1 = heal(child1)
+        child2 = heal(child2)
+        
+        return child1, child2
     
     def evolve(self):
         new_population = []
@@ -76,7 +147,7 @@ class GA_LEGCS(GeneticAlgorithm):
             parent2 = self.tournament_selection()
             
             # crossover (implemented in ga.ga)
-            child1, child2 = self.crossover(parent1, parent2)
+            child1, child2 = self.sub_graph_crossover(parent1, parent2)
             
             # mutation (implemented in ga.ga)
             child1 = self.mutate(child1)
@@ -88,7 +159,7 @@ class GA_LEGCS(GeneticAlgorithm):
         new_population = new_population[:self.pop_size]
         self.population = new_population
     
-    def tournament_selection(self, k=3):
+    def tournament_selection(self, k=30):
         selected = random.sample(range(self.pop_size), k)
         selected_fitness = [self.fitness[index] for index in selected]
         
@@ -97,13 +168,15 @@ class GA_LEGCS(GeneticAlgorithm):
                 return self.population[i]
     
     def run(self):
-        best_sim = min(self.fitness)
+        i = self.fitness.index(min(self.fitness))
         best_gen = -1
-        best_genome = self.population[self.fitness.index(best_sim)]
+        best_sim = self.sims_list[i]
+        best_genome = self.population[i]
+        best_fitness = self.fitness[i]
         
         print("Initialisation")
-        print("best sim ", best_sim, " from Gen", best_gen)
-        
+        print("best sim ", best_sim, " with ", len(best_genome), " streets from Gen", best_gen)
+        print("best fitness ", best_fitness)        
         
         for generation in range(self.generations):
             print("Generation ", generation)
@@ -116,34 +189,41 @@ class GA_LEGCS(GeneticAlgorithm):
             
             # evolve
             self.evolve()
+            predictions = []
             for i in range(self.pop_size):
                 model.eval()
-                self.fitness[i] = model(get_graph_data(self.population[i])).item()
+                predictions.append(model(get_graph_data(self.population[i])).item())
+            self.update_fitness(predictions)
             
             # simulate
+            best_fitness = determine_fitness(normalize(best_sim, n_min, n_max), best_genome)
             top_predictions = list(np.argsort(self.fitness)[:int(0.01 * self.pop_size)])
             for i in top_predictions:
                 simID = "gen" + str(generation) + "genome" + str(i)
                 sim = simulate(self.population[i], simID)
-                print("pred ", self.fitness[i], " to sim ", normalize(sim, n_min, n_max))
+                current_fitness = determine_fitness(normalize(sim, n_min, n_max), self.population[i])
+                print("pred fitness ", self.fitness[i], " to sim fitness ", current_fitness)
+                self.fitness[i] = current_fitness
                 
-                if sim < best_sim:
+                if current_fitness < best_fitness:
+                    print("We found a new best network!")
                     best_sim = sim
                     best_gen = generation
                     best_genome = self.population[i]
+                    best_fitness = current_fitness
                 
                 self.graph_list.append(get_graph_data(self.population[i]))
                 self.sims_list.append(sim)
-                self.fitness[i] = normalize(sim, n_min, n_max)
 
-            print("best sim ", best_sim, " from Gen", best_gen)
+            print("best sim ", best_sim, " with ", len(best_genome), " streets from Gen", best_gen)
+            print("best fitness: ", best_fitness)
         
         return best_genom, best_sim
 
 initial_population = get_initial_population(range(1000))
 sims_list = get_sims()
 sims_list = sims_list[:1000]
-ga = GA_LEGCS(initial_population, sims_list, 100, 0.3)
+ga = GA_LEGCS(initial_population, sims_list, 100, 0.1)
 best_genome, best_fitness = ga.run()
 
 print(best_genome)
