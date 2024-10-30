@@ -162,6 +162,10 @@ class GraphDataset(Dataset):
         y_value = self.y_values[idx]
         data = Data(x=graph.x, edge_index=graph.edge_index, edge_attr=graph.edge_attr, y=torch.tensor(y_value, dtype=torch.float))
         return data
+    
+    def append(self, graph, y):
+        self.graph_list.append(graph)
+        self.y_values.append(y)
 
     def get(self, idx):
         return self.__getitem__(idx)

@@ -54,14 +54,22 @@ class GA_LEGCS(GeneticAlgorithm):
     def __init__(self, initial_population, sims_list, generations, mutation_rate):
         self.population = initial_population
         self.pop_size = len(self.population)
-        self.graph_list = []
-        for edge_list in self.population:
-            self.graph_list.append(get_graph_data(edge_list))
-        self.sims_list = sims_list
+        #self.graph_list = []
+        #for edge_list in self.population:
+        #    self.graph_list.append(get_graph_data(edge_list))
+        #self.sims_list = sims_list
         self.generations = generations
         self.mutation_rate = mutation_rate
-        normalized_sims, n_min, n_max = normalize_list(sims_list.copy())
-        self.update_fitness(normalized_sims)
+        #normalized_sims, n_min, n_max = normalize_list(sims_list.copy())
+        #self.update_fitness(normalized_sims)
+        
+        self.minmax = [min(sims_list) / 1.5, max(sims_list)]
+        self.graph_dataset = GraphDataset([],[])
+        self.fitness = []
+        for i in range(self.pop_size):
+            y = normalize(sims_list[i], self.minmax[0], self.minmax[1])
+            self.graph_dataset.append(get_graph_data(self.population[i]), y)
+            self.fitness.append(determine_fitness(y, self.population[i]))
     
     def update_single_fitness(self, index, travel_time):
         self.fitness[index] = determine_fitness(travel_time, self.population[index])
@@ -147,7 +155,7 @@ class GA_LEGCS(GeneticAlgorithm):
             parent2 = self.tournament_selection()
             
             # crossover (implemented in ga.ga)
-            child1, child2 = self.sub_graph_crossover(parent1, parent2)
+            child1, child2 = self.crossover(parent1, parent2)
             
             # mutation (implemented in ga.ga)
             child1 = self.mutate(child1)
@@ -159,7 +167,7 @@ class GA_LEGCS(GeneticAlgorithm):
         new_population = new_population[:self.pop_size]
         self.population = new_population
     
-    def tournament_selection(self, k=30):
+    def tournament_selection(self, k=3):
         selected = random.sample(range(self.pop_size), k)
         selected_fitness = [self.fitness[index] for index in selected]
         
@@ -170,7 +178,8 @@ class GA_LEGCS(GeneticAlgorithm):
     def run(self):
         i = self.fitness.index(min(self.fitness))
         best_gen = -1
-        best_sim = self.sims_list[i]
+        # best_sim = self.sims_list[i]
+        best_sim = self.graph_dataset.get(i).y.item()
         best_genome = self.population[i]
         best_fitness = self.fitness[i]
         
@@ -178,14 +187,21 @@ class GA_LEGCS(GeneticAlgorithm):
         print("best sim ", best_sim, " with ", len(best_genome), " streets from Gen", best_gen)
         print("best fitness ", best_fitness)        
         
+        #max_sim = max(self.sims_list)
+        
         for generation in range(self.generations):
             print("Generation ", generation)
-                       
-            # train GNN model
-            normalized_sims, n_min, n_max = normalize_list(self.sims_list)
-            train_set, val_set = random_split(GraphDataset(self.graph_list, normalized_sims), [0.8, 0.2])
-            r2 = 0
-            model = get_model(GNN(), train_set, val_set)
+            self.mutation_rate = self.mutation_rate - 0.004
+            
+            #assert min(self.sims_list) > 1
+            #assert max(self.sims_list) >= max_sim
+            
+            # train GNN model every 10 generations
+            if generation % 10 == 0:
+                # normalized_sims, n_min, n_max = normalize_list(self.sims_list)
+                # train_set, val_set = random_split(GraphDataset(self.graph_list, normalized_sims), [0.8, 0.2])
+                train_set, val_set = random_split(self.graph_dataset, [0.8, 0.2])
+                model = get_model(GNN(), train_set, val_set)
             
             # evolve
             self.evolve()
@@ -196,12 +212,20 @@ class GA_LEGCS(GeneticAlgorithm):
             self.update_fitness(predictions)
             
             # simulate
-            best_fitness = determine_fitness(normalize(best_sim, n_min, n_max), best_genome)
+            # best_fitness = determine_fitness(normalize(best_sim, n_min, n_max), best_genome)
             top_predictions = list(np.argsort(self.fitness)[:int(0.01 * self.pop_size)])
-            for i in top_predictions:
+            random_preds = []
+            while len(random_preds) < len(top_predictions):
+                idx = random.randint(0, self.pop_size - 1)
+                if idx not in top_predictions:
+                    random_preds.append(idx)
+            sim_indices = top_predictions + random_preds
+            for i in sim_indices:
                 simID = "gen" + str(generation) + "genome" + str(i)
+                current_edge_list = self.population[i].copy()
                 sim = simulate(self.population[i], simID)
-                current_fitness = determine_fitness(normalize(sim, n_min, n_max), self.population[i])
+                y = normalize(sim, self.minmax[0], self.minmax[1])
+                current_fitness = determine_fitness(y, self.population[i])
                 print("pred fitness ", self.fitness[i], " to sim fitness ", current_fitness)
                 self.fitness[i] = current_fitness
                 
@@ -212,18 +236,20 @@ class GA_LEGCS(GeneticAlgorithm):
                     best_genome = self.population[i]
                     best_fitness = current_fitness
                 
-                self.graph_list.append(get_graph_data(self.population[i]))
-                self.sims_list.append(sim)
+                #self.graph_list.append(get_graph_data(self.population[i].copy()))
+                #self.sims_list.append(sim)
+                self.graph_dataset.append(get_graph_data(self.population[i]), y) 
 
             print("best sim ", best_sim, " with ", len(best_genome), " streets from Gen", best_gen)
             print("best fitness: ", best_fitness)
         
         return best_genom, best_sim
 
-initial_population = get_initial_population(range(1000))
+population_size = 500
+initial_population = get_initial_population(range(population_size))
 sims_list = get_sims()
-sims_list = sims_list[:1000]
-ga = GA_LEGCS(initial_population, sims_list, 100, 0.1)
+sims_list = sims_list[:population_size]
+ga = GA_LEGCS(initial_population, sims_list, 100, 0.5)
 best_genome, best_fitness = ga.run()
 
 print(best_genome)

@@ -3,7 +3,7 @@ import sumolib
 
 def run_simulation(sumo_config_path):
     # Start the SUMO simulation
-    sumo_cmd = ["sumo", "-c", sumo_config_path, "--junction-taz"]
+    sumo_cmd = ["sumo", "-c", sumo_config_path, "--junction-taz", "--no-warnings"]
     traci.start(sumo_cmd)
     
     total_avg_speed = 0
