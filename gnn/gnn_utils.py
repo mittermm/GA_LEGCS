@@ -75,17 +75,19 @@ def get_sims(f="training_data/data.csv"):
             assert int(network) == i
             i += 1
             
-            time = float(avg_distance) * float(avg_speed)
+            time = float(avg_distance) / float(avg_speed)
             travel_times.append(time)
     
-    minimum = min(travel_times)
-    maximum = max(travel_times)
-    for i in range(len(travel_times)):
-        travel_times[i] = normalize(travel_times[i], 0.5*minimum, maximum)
-
-    assert min(travel_times) >= 0.00 # and min(travel_times) <  0.01
-    assert max(travel_times) >  0.99 and max(travel_times) <= 1.01    
     return travel_times
+    
+    #minimum = min(travel_times)
+    #maximum = max(travel_times)
+    #for i in range(len(travel_times)):
+    #    travel_times[i] = normalize(travel_times[i], minimum / 1.5, maximum)
+
+    #assert min(travel_times) >= 0.00 # and min(travel_times) <  0.01
+    #assert max(travel_times) >  0.99 and max(travel_times) <= 1.01    
+    #return travel_times
 
 def get_graph_data(f):
 	node_list = []
@@ -226,6 +228,8 @@ def get_model(model, train_dataset, val_dataset):
     patience = 10  # Number of epochs to wait for improvement
     best_val_loss = float('inf')
     patience_counter = 0
+    val_mae = 0
+    val_r2 = 0
     
     for epoch in range(1, num_epochs + 1):
         train_loss = train(model, train_loader, optimizer)
@@ -249,5 +253,5 @@ def get_model(model, train_dataset, val_dataset):
             print(f"Early stopping after {epoch} epochs due to no improvement in validation loss.")
             break
     
-    return model
+    return model, val_mae, val_r2
 

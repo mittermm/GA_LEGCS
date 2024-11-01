@@ -1,0 +1,204 @@
+31/10/2024 13:53:43 Initialisation: best fitness = 0.26513667057240753 with 166 streets (sim = 0.1991366744041443)
+31/10/2024 13:53:54 GNN model trained, mae = 0.05737354, r2 = 0.7746943926070032
+31/10/2024 13:53:54 starting generation 0
+31/10/2024 13:53:56 best fitness 0.24229209375381472 from generation 0
+31/10/2024 13:53:56 starting generation 1
+31/10/2024 13:53:58 best fitness 0.20983155035972595 from generation 1
+31/10/2024 13:53:58 starting generation 2
+31/10/2024 13:54:00 best fitness 0.20983155035972595 from generation 1
+31/10/2024 13:54:00 starting generation 3
+31/10/2024 13:54:02 best fitness 0.20983155035972595 from generation 1
+31/10/2024 13:54:02 starting generation 4
+31/10/2024 13:54:03 best fitness 0.20983155035972595 from generation 1
+31/10/2024 13:54:03 starting generation 5
+31/10/2024 13:54:05 best fitness 0.20816177773475647 from generation 5
+31/10/2024 13:54:05 starting generation 6
+31/10/2024 13:54:07 best fitness 0.20816177773475647 from generation 5
+31/10/2024 13:54:07 starting generation 7
+31/10/2024 13:54:09 best fitness 0.20059478116035462 from generation 7
+31/10/2024 13:54:09 starting generation 8
+31/10/2024 13:54:11 best fitness 0.19669781935214997 from generation 8
+31/10/2024 13:54:11 starting generation 9
+31/10/2024 13:54:13 best fitness 0.19669781935214997 from generation 8
+31/10/2024 13:54:13 starting generation 10
+31/10/2024 13:54:15 best fitness 0.19646206402778627 from generation 10
+31/10/2024 13:54:15 starting generation 11
+31/10/2024 13:54:16 best fitness 0.18416061890125274 from generation 11
+31/10/2024 13:54:16 starting generation 12
+31/10/2024 13:54:18 best fitness 0.18416061890125274 from generation 11
+31/10/2024 13:54:18 starting generation 13
+31/10/2024 13:54:20 best fitness 0.18416061890125274 from generation 11
+31/10/2024 13:54:20 starting generation 14
+31/10/2024 13:54:22 best fitness 0.18416061890125274 from generation 11
+31/10/2024 13:54:22 starting generation 15
+31/10/2024 13:54:24 best fitness 0.18416061890125274 from generation 11
+31/10/2024 13:54:24 starting generation 16
+31/10/2024 13:54:26 best fitness 0.1822040923833847 from generation 16
+31/10/2024 13:54:26 starting generation 17
+31/10/2024 13:54:28 best fitness 0.1810960488319397 from generation 17
+31/10/2024 13:54:28 starting generation 18
+31/10/2024 13:54:30 best fitness 0.17341449880599974 from generation 18
+31/10/2024 13:54:30 starting generation 19
+31/10/2024 13:54:31 best fitness 0.17341449880599974 from generation 18
+31/10/2024 13:54:31 starting generation 20
+31/10/2024 13:54:33 best fitness 0.1708149790763855 from generation 20
+31/10/2024 13:54:33 starting generation 21
+31/10/2024 13:54:35 best fitness 0.1708149790763855 from generation 20
+31/10/2024 13:54:35 starting generation 22
+31/10/2024 13:54:36 best fitness 0.16810042023658753 from generation 22
+31/10/2024 13:54:36 starting generation 23
+31/10/2024 13:54:38 best fitness 0.16810042023658753 from generation 22
+31/10/2024 13:54:38 starting generation 24
+31/10/2024 13:54:40 best fitness 0.162217635512352 from generation 24
+31/10/2024 13:54:40 starting generation 25
+31/10/2024 13:54:42 best fitness 0.15838244581222533 from generation 25
+31/10/2024 13:54:42 starting generation 26
+31/10/2024 13:54:43 best fitness 0.15838244581222533 from generation 25
+31/10/2024 13:54:43 starting generation 27
+31/10/2024 13:54:45 best fitness 0.15386856710910796 from generation 27
+31/10/2024 13:54:45 starting generation 28
+31/10/2024 13:54:46 best fitness 0.15386856710910796 from generation 27
+31/10/2024 13:54:46 starting generation 29
+31/10/2024 13:54:48 best fitness 0.14885478281974793 from generation 29
+31/10/2024 13:54:48 starting generation 30
+31/10/2024 13:54:50 best fitness 0.14885478281974793 from generation 29
+31/10/2024 13:54:50 starting generation 31
+31/10/2024 13:54:51 best fitness 0.14885478281974793 from generation 29
+31/10/2024 13:54:51 starting generation 32
+31/10/2024 13:54:53 best fitness 0.14703262209892273 from generation 32
+31/10/2024 13:54:53 starting generation 33
+31/10/2024 13:54:55 best fitness 0.14279717695713043 from generation 33
+31/10/2024 13:54:55 starting generation 34
+31/10/2024 13:54:56 best fitness 0.14279717695713043 from generation 33
+31/10/2024 13:54:56 starting generation 35
+31/10/2024 13:54:58 best fitness 0.14279717695713043 from generation 33
+31/10/2024 13:54:58 starting generation 36
+31/10/2024 13:54:59 best fitness 0.14279717695713043 from generation 33
+31/10/2024 13:54:59 starting generation 37
+31/10/2024 13:55:01 best fitness 0.14279717695713043 from generation 33
+31/10/2024 13:55:01 starting generation 38
+31/10/2024 13:55:03 best fitness 0.1380406985282898 from generation 38
+31/10/2024 13:55:03 starting generation 39
+31/10/2024 13:55:04 best fitness 0.13523430323600769 from generation 39
+31/10/2024 13:55:04 starting generation 40
+31/10/2024 13:55:06 best fitness 0.13186555433273317 from generation 40
+31/10/2024 13:55:06 starting generation 41
+31/10/2024 13:55:08 best fitness 0.13186555433273317 from generation 40
+31/10/2024 13:55:08 starting generation 42
+31/10/2024 13:55:09 best fitness 0.13186555433273317 from generation 40
+31/10/2024 13:55:09 starting generation 43
+31/10/2024 13:55:11 best fitness 0.13186555433273317 from generation 40
+31/10/2024 13:55:11 starting generation 44
+31/10/2024 13:55:12 best fitness 0.12707449579238891 from generation 44
+31/10/2024 13:55:12 starting generation 45
+31/10/2024 13:55:14 best fitness 0.12707449579238891 from generation 44
+31/10/2024 13:55:14 starting generation 46
+31/10/2024 13:55:16 best fitness 0.12707449579238891 from generation 44
+31/10/2024 13:55:16 starting generation 47
+31/10/2024 13:55:18 best fitness 0.12707449579238891 from generation 44
+31/10/2024 13:55:18 starting generation 48
+31/10/2024 13:55:20 best fitness 0.12147694838047027 from generation 48
+31/10/2024 13:55:20 starting generation 49
+31/10/2024 13:55:22 best fitness 0.12147694838047027 from generation 48
+31/10/2024 13:55:22 starting generation 50
+31/10/2024 13:55:23 best fitness 0.12147694838047027 from generation 48
+31/10/2024 13:55:23 starting generation 51
+31/10/2024 13:55:25 best fitness 0.12147694838047027 from generation 48
+31/10/2024 13:55:25 starting generation 52
+31/10/2024 13:55:26 best fitness 0.12147694838047027 from generation 48
+31/10/2024 13:55:26 starting generation 53
+31/10/2024 13:55:28 best fitness 0.12039911818504334 from generation 53
+31/10/2024 13:55:28 starting generation 54
+31/10/2024 13:55:30 best fitness 0.11680952668190002 from generation 54
+31/10/2024 13:55:30 starting generation 55
+31/10/2024 13:55:31 best fitness 0.11680952668190002 from generation 54
+31/10/2024 13:55:31 starting generation 56
+31/10/2024 13:55:33 best fitness 0.11677124631404877 from generation 56
+31/10/2024 13:55:33 starting generation 57
+31/10/2024 13:55:34 best fitness 0.11677124631404877 from generation 56
+31/10/2024 13:55:34 starting generation 58
+31/10/2024 13:55:36 best fitness 0.10903907775878906 from generation 58
+31/10/2024 13:55:36 starting generation 59
+31/10/2024 13:55:37 best fitness 0.10903907775878906 from generation 58
+31/10/2024 13:55:37 starting generation 60
+31/10/2024 13:55:39 best fitness 0.10903907775878906 from generation 58
+31/10/2024 13:55:39 starting generation 61
+31/10/2024 13:55:40 best fitness 0.10903907775878906 from generation 58
+31/10/2024 13:55:40 starting generation 62
+31/10/2024 13:55:42 best fitness 0.10903907775878906 from generation 58
+31/10/2024 13:55:42 starting generation 63
+31/10/2024 13:55:44 best fitness 0.10794069349765778 from generation 63
+31/10/2024 13:55:44 starting generation 64
+31/10/2024 13:55:45 best fitness 0.10731169247627259 from generation 64
+31/10/2024 13:55:45 starting generation 65
+31/10/2024 13:55:46 best fitness 0.10625881028175355 from generation 65
+31/10/2024 13:55:46 starting generation 66
+31/10/2024 13:55:48 best fitness 0.10625881028175355 from generation 65
+31/10/2024 13:55:48 starting generation 67
+31/10/2024 13:55:50 best fitness 0.10426675057411194 from generation 67
+31/10/2024 13:55:50 starting generation 68
+31/10/2024 13:55:51 best fitness 0.10426675057411194 from generation 67
+31/10/2024 13:55:51 starting generation 69
+31/10/2024 13:55:53 best fitness 0.10423264181613923 from generation 69
+31/10/2024 13:55:53 starting generation 70
+31/10/2024 13:55:54 best fitness 0.09993613243103028 from generation 70
+31/10/2024 13:55:54 starting generation 71
+31/10/2024 13:55:56 best fitness 0.09993613243103028 from generation 70
+31/10/2024 13:55:56 starting generation 72
+31/10/2024 13:55:57 best fitness 0.09600978076457978 from generation 72
+31/10/2024 13:55:57 starting generation 73
+31/10/2024 13:55:59 best fitness 0.09600978076457978 from generation 72
+31/10/2024 13:55:59 starting generation 74
+31/10/2024 13:56:00 best fitness 0.09600978076457978 from generation 72
+31/10/2024 13:56:00 starting generation 75
+31/10/2024 13:56:02 best fitness 0.09600978076457978 from generation 72
+31/10/2024 13:56:02 starting generation 76
+31/10/2024 13:56:03 best fitness 0.09600978076457978 from generation 72
+31/10/2024 13:56:03 starting generation 77
+31/10/2024 13:56:05 best fitness 0.09600978076457978 from generation 72
+31/10/2024 13:56:05 starting generation 78
+31/10/2024 13:56:06 best fitness 0.09555324506759644 from generation 78
+31/10/2024 13:56:06 starting generation 79
+31/10/2024 13:56:08 best fitness 0.09264634144306183 from generation 79
+31/10/2024 13:56:08 starting generation 80
+31/10/2024 13:56:09 best fitness 0.09165634691715241 from generation 80
+31/10/2024 13:56:09 starting generation 81
+31/10/2024 13:56:11 best fitness 0.09165634691715241 from generation 80
+31/10/2024 13:56:11 starting generation 82
+31/10/2024 13:56:12 best fitness 0.08923610639572144 from generation 82
+31/10/2024 13:56:12 starting generation 83
+31/10/2024 13:56:14 best fitness 0.08923610639572144 from generation 82
+31/10/2024 13:56:14 starting generation 84
+31/10/2024 13:56:16 best fitness 0.08923610639572144 from generation 82
+31/10/2024 13:56:16 starting generation 85
+31/10/2024 13:56:17 best fitness 0.08878780901432037 from generation 85
+31/10/2024 13:56:17 starting generation 86
+31/10/2024 13:56:19 best fitness 0.08878780901432037 from generation 85
+31/10/2024 13:56:19 starting generation 87
+31/10/2024 13:56:20 best fitness 0.08878780901432037 from generation 85
+31/10/2024 13:56:20 starting generation 88
+31/10/2024 13:56:21 best fitness 0.08795520257949829 from generation 88
+31/10/2024 13:56:21 starting generation 89
+31/10/2024 13:56:23 best fitness 0.0874355137348175 from generation 89
+31/10/2024 13:56:23 starting generation 90
+31/10/2024 13:56:24 best fitness 0.08501788568496704 from generation 90
+31/10/2024 13:56:24 starting generation 91
+31/10/2024 13:56:26 best fitness 0.08456250619888306 from generation 91
+31/10/2024 13:56:26 starting generation 92
+31/10/2024 13:56:27 best fitness 0.08456250619888306 from generation 91
+31/10/2024 13:56:27 starting generation 93
+31/10/2024 13:56:29 best fitness 0.08456250619888306 from generation 91
+31/10/2024 13:56:29 starting generation 94
+31/10/2024 13:56:30 best fitness 0.08338422667980194 from generation 94
+31/10/2024 13:56:30 starting generation 95
+31/10/2024 13:56:31 best fitness 0.0831891725063324 from generation 95
+31/10/2024 13:56:31 starting generation 96
+31/10/2024 13:56:33 best fitness 0.08310702443122864 from generation 96
+31/10/2024 13:56:33 starting generation 97
+31/10/2024 13:56:34 best fitness 0.08310702443122864 from generation 96
+31/10/2024 13:56:34 starting generation 98
+31/10/2024 13:56:35 best fitness 0.08310702443122864 from generation 96
+31/10/2024 13:56:35 starting generation 99
+31/10/2024 13:56:37 best fitness 0.08247093653678894 from generation 99
+31/10/2024 13:56:37 GA done, start simulations
+31/10/2024 13:57:29 simulated genome296: fitness = 0.5852947405500009 (predicted 0.08247093653678894) with 101 streets
