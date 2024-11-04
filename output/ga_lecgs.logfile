@@ -794,3 +794,6 @@
 04/11/2024 10:41:31 simulated gen61genome138: fitness = 0.4446081524124101 (predicted 0.32057442140579223) with 157 streets
 04/11/2024 10:45:50 simulated gen61genome398: fitness = 0.5027764145326421 (predicted 0.3222395408153534) with 155 streets
 04/11/2024 10:50:58 simulated gen61genome399: fitness = 0.6021523299747571 (predicted 0.3237877883911133) with 154 streets
+04/11/2024 11:12:20 Initialisation: best fitness = 0.2821479790521245 with 186 streets
+04/11/2024 11:12:20 starting generation 0
+04/11/2024 11:12:28 new GNN model trained, mae = 0.056662936, r2 = 0.788211879857694

@@ -68,6 +68,7 @@ class GA_LEGCS(GeneticAlgorithm):
         self.mutation_rate = mutation_rate
         
         self.minmax = [min(sims_list) / 1.5, max(sims_list)]
+        print("normalisation: min = ", self.minmax[0], " max = ", self.minmax[1])
         self.initial_graph_dataset = GraphDataset([],[])
         self.runtime_graph_dataset = GraphDataset([],[])
         self.fitness = []
@@ -82,7 +83,7 @@ class GA_LEGCS(GeneticAlgorithm):
         self.fitness = [-1] * self.pop_size
         
         for i in range(self.pop_size):
-            self.fitness[i] = determine_fitness(travel_tims[i], self.population[i])
+            self.fitness[i] = determine_fitness(travel_times[i], self.population[i])
         
         assert min(self.fitness) > -1
     
@@ -157,7 +158,8 @@ class GA_LEGCS(GeneticAlgorithm):
             parent2 = self.tournament_selection()
             
             # crossover (implemented in ga.ga)
-            child1, child2 = self.crossover(parent1, parent2)
+            # child1, child2 = self.crossover(parent1, parent2)
+            child1, child2 = self.edge_based_crossover(parent1, parent2)
             
             # mutation (implemented in ga.ga)
             child1 = self.mutate(child1)
@@ -214,9 +216,9 @@ class GA_LEGCS(GeneticAlgorithm):
             self.update_fitness(predictions)
             
             # simulate
-            top_predictions = list(np.argsort(self.fitness)[:int(0.01 * self.pop_size)])
+            top_predictions = list(np.argsort(self.fitness)[:int(0.03 * self.pop_size)])
             random_preds = []
-            while len(random_preds) < len(top_predictions):
+            while len(random_preds) < 5:
                 idx = random.randint(0, self.pop_size - 1)
                 if idx not in top_predictions:
                     random_preds.append(idx)
@@ -226,12 +228,13 @@ class GA_LEGCS(GeneticAlgorithm):
                 current_edge_list = self.population[i].copy()
                 sim = simulate(self.population[i], simID)
                 y = normalize(sim, self.minmax[0], self.minmax[1])
+                print(sim, " normalised with min = ", self.minmax[0], " max = ", self.minmax[1], " to ", y)
                 current_fitness = determine_fitness(y, self.population[i])
+                print("pred fitness ", self.fitness[i], " to sim fitness ", current_fitness)
+                logging.info("simulated " + simID + ": fitness = " + str(current_fitness) + " (predicted " + str(self.fitness[i]) + ") with " + str(len(self.population[i])) + " streets")
                 self.fitness[i] = current_fitness
                 self.runtime_graph_dataset.append(get_graph_data(self.population[i]), y) 
 
-                print("pred fitness ", self.fitness[i], " to sim fitness ", current_fitness)
-                logging.info("simulated " + simID + ": fitness = " + str(current_fitness) + " (predicted " + str(self.fitness[i]) + ") with " + str(len(self.population[i])) + " streets")
                 
                 if current_fitness < best_fitness:
                     print("We found a new best network!")
