@@ -1,204 +1,796 @@
-31/10/2024 13:53:43 Initialisation: best fitness = 0.26513667057240753 with 166 streets (sim = 0.1991366744041443)
-31/10/2024 13:53:54 GNN model trained, mae = 0.05737354, r2 = 0.7746943926070032
-31/10/2024 13:53:54 starting generation 0
-31/10/2024 13:53:56 best fitness 0.24229209375381472 from generation 0
-31/10/2024 13:53:56 starting generation 1
-31/10/2024 13:53:58 best fitness 0.20983155035972595 from generation 1
-31/10/2024 13:53:58 starting generation 2
-31/10/2024 13:54:00 best fitness 0.20983155035972595 from generation 1
-31/10/2024 13:54:00 starting generation 3
-31/10/2024 13:54:02 best fitness 0.20983155035972595 from generation 1
-31/10/2024 13:54:02 starting generation 4
-31/10/2024 13:54:03 best fitness 0.20983155035972595 from generation 1
-31/10/2024 13:54:03 starting generation 5
-31/10/2024 13:54:05 best fitness 0.20816177773475647 from generation 5
-31/10/2024 13:54:05 starting generation 6
-31/10/2024 13:54:07 best fitness 0.20816177773475647 from generation 5
-31/10/2024 13:54:07 starting generation 7
-31/10/2024 13:54:09 best fitness 0.20059478116035462 from generation 7
-31/10/2024 13:54:09 starting generation 8
-31/10/2024 13:54:11 best fitness 0.19669781935214997 from generation 8
-31/10/2024 13:54:11 starting generation 9
-31/10/2024 13:54:13 best fitness 0.19669781935214997 from generation 8
-31/10/2024 13:54:13 starting generation 10
-31/10/2024 13:54:15 best fitness 0.19646206402778627 from generation 10
-31/10/2024 13:54:15 starting generation 11
-31/10/2024 13:54:16 best fitness 0.18416061890125274 from generation 11
-31/10/2024 13:54:16 starting generation 12
-31/10/2024 13:54:18 best fitness 0.18416061890125274 from generation 11
-31/10/2024 13:54:18 starting generation 13
-31/10/2024 13:54:20 best fitness 0.18416061890125274 from generation 11
-31/10/2024 13:54:20 starting generation 14
-31/10/2024 13:54:22 best fitness 0.18416061890125274 from generation 11
-31/10/2024 13:54:22 starting generation 15
-31/10/2024 13:54:24 best fitness 0.18416061890125274 from generation 11
-31/10/2024 13:54:24 starting generation 16
-31/10/2024 13:54:26 best fitness 0.1822040923833847 from generation 16
-31/10/2024 13:54:26 starting generation 17
-31/10/2024 13:54:28 best fitness 0.1810960488319397 from generation 17
-31/10/2024 13:54:28 starting generation 18
-31/10/2024 13:54:30 best fitness 0.17341449880599974 from generation 18
-31/10/2024 13:54:30 starting generation 19
-31/10/2024 13:54:31 best fitness 0.17341449880599974 from generation 18
-31/10/2024 13:54:31 starting generation 20
-31/10/2024 13:54:33 best fitness 0.1708149790763855 from generation 20
-31/10/2024 13:54:33 starting generation 21
-31/10/2024 13:54:35 best fitness 0.1708149790763855 from generation 20
-31/10/2024 13:54:35 starting generation 22
-31/10/2024 13:54:36 best fitness 0.16810042023658753 from generation 22
-31/10/2024 13:54:36 starting generation 23
-31/10/2024 13:54:38 best fitness 0.16810042023658753 from generation 22
-31/10/2024 13:54:38 starting generation 24
-31/10/2024 13:54:40 best fitness 0.162217635512352 from generation 24
-31/10/2024 13:54:40 starting generation 25
-31/10/2024 13:54:42 best fitness 0.15838244581222533 from generation 25
-31/10/2024 13:54:42 starting generation 26
-31/10/2024 13:54:43 best fitness 0.15838244581222533 from generation 25
-31/10/2024 13:54:43 starting generation 27
-31/10/2024 13:54:45 best fitness 0.15386856710910796 from generation 27
-31/10/2024 13:54:45 starting generation 28
-31/10/2024 13:54:46 best fitness 0.15386856710910796 from generation 27
-31/10/2024 13:54:46 starting generation 29
-31/10/2024 13:54:48 best fitness 0.14885478281974793 from generation 29
-31/10/2024 13:54:48 starting generation 30
-31/10/2024 13:54:50 best fitness 0.14885478281974793 from generation 29
-31/10/2024 13:54:50 starting generation 31
-31/10/2024 13:54:51 best fitness 0.14885478281974793 from generation 29
-31/10/2024 13:54:51 starting generation 32
-31/10/2024 13:54:53 best fitness 0.14703262209892273 from generation 32
-31/10/2024 13:54:53 starting generation 33
-31/10/2024 13:54:55 best fitness 0.14279717695713043 from generation 33
-31/10/2024 13:54:55 starting generation 34
-31/10/2024 13:54:56 best fitness 0.14279717695713043 from generation 33
-31/10/2024 13:54:56 starting generation 35
-31/10/2024 13:54:58 best fitness 0.14279717695713043 from generation 33
-31/10/2024 13:54:58 starting generation 36
-31/10/2024 13:54:59 best fitness 0.14279717695713043 from generation 33
-31/10/2024 13:54:59 starting generation 37
-31/10/2024 13:55:01 best fitness 0.14279717695713043 from generation 33
-31/10/2024 13:55:01 starting generation 38
-31/10/2024 13:55:03 best fitness 0.1380406985282898 from generation 38
-31/10/2024 13:55:03 starting generation 39
-31/10/2024 13:55:04 best fitness 0.13523430323600769 from generation 39
-31/10/2024 13:55:04 starting generation 40
-31/10/2024 13:55:06 best fitness 0.13186555433273317 from generation 40
-31/10/2024 13:55:06 starting generation 41
-31/10/2024 13:55:08 best fitness 0.13186555433273317 from generation 40
-31/10/2024 13:55:08 starting generation 42
-31/10/2024 13:55:09 best fitness 0.13186555433273317 from generation 40
-31/10/2024 13:55:09 starting generation 43
-31/10/2024 13:55:11 best fitness 0.13186555433273317 from generation 40
-31/10/2024 13:55:11 starting generation 44
-31/10/2024 13:55:12 best fitness 0.12707449579238891 from generation 44
-31/10/2024 13:55:12 starting generation 45
-31/10/2024 13:55:14 best fitness 0.12707449579238891 from generation 44
-31/10/2024 13:55:14 starting generation 46
-31/10/2024 13:55:16 best fitness 0.12707449579238891 from generation 44
-31/10/2024 13:55:16 starting generation 47
-31/10/2024 13:55:18 best fitness 0.12707449579238891 from generation 44
-31/10/2024 13:55:18 starting generation 48
-31/10/2024 13:55:20 best fitness 0.12147694838047027 from generation 48
-31/10/2024 13:55:20 starting generation 49
-31/10/2024 13:55:22 best fitness 0.12147694838047027 from generation 48
-31/10/2024 13:55:22 starting generation 50
-31/10/2024 13:55:23 best fitness 0.12147694838047027 from generation 48
-31/10/2024 13:55:23 starting generation 51
-31/10/2024 13:55:25 best fitness 0.12147694838047027 from generation 48
-31/10/2024 13:55:25 starting generation 52
-31/10/2024 13:55:26 best fitness 0.12147694838047027 from generation 48
-31/10/2024 13:55:26 starting generation 53
-31/10/2024 13:55:28 best fitness 0.12039911818504334 from generation 53
-31/10/2024 13:55:28 starting generation 54
-31/10/2024 13:55:30 best fitness 0.11680952668190002 from generation 54
-31/10/2024 13:55:30 starting generation 55
-31/10/2024 13:55:31 best fitness 0.11680952668190002 from generation 54
-31/10/2024 13:55:31 starting generation 56
-31/10/2024 13:55:33 best fitness 0.11677124631404877 from generation 56
-31/10/2024 13:55:33 starting generation 57
-31/10/2024 13:55:34 best fitness 0.11677124631404877 from generation 56
-31/10/2024 13:55:34 starting generation 58
-31/10/2024 13:55:36 best fitness 0.10903907775878906 from generation 58
-31/10/2024 13:55:36 starting generation 59
-31/10/2024 13:55:37 best fitness 0.10903907775878906 from generation 58
-31/10/2024 13:55:37 starting generation 60
-31/10/2024 13:55:39 best fitness 0.10903907775878906 from generation 58
-31/10/2024 13:55:39 starting generation 61
-31/10/2024 13:55:40 best fitness 0.10903907775878906 from generation 58
-31/10/2024 13:55:40 starting generation 62
-31/10/2024 13:55:42 best fitness 0.10903907775878906 from generation 58
-31/10/2024 13:55:42 starting generation 63
-31/10/2024 13:55:44 best fitness 0.10794069349765778 from generation 63
-31/10/2024 13:55:44 starting generation 64
-31/10/2024 13:55:45 best fitness 0.10731169247627259 from generation 64
-31/10/2024 13:55:45 starting generation 65
-31/10/2024 13:55:46 best fitness 0.10625881028175355 from generation 65
-31/10/2024 13:55:46 starting generation 66
-31/10/2024 13:55:48 best fitness 0.10625881028175355 from generation 65
-31/10/2024 13:55:48 starting generation 67
-31/10/2024 13:55:50 best fitness 0.10426675057411194 from generation 67
-31/10/2024 13:55:50 starting generation 68
-31/10/2024 13:55:51 best fitness 0.10426675057411194 from generation 67
-31/10/2024 13:55:51 starting generation 69
-31/10/2024 13:55:53 best fitness 0.10423264181613923 from generation 69
-31/10/2024 13:55:53 starting generation 70
-31/10/2024 13:55:54 best fitness 0.09993613243103028 from generation 70
-31/10/2024 13:55:54 starting generation 71
-31/10/2024 13:55:56 best fitness 0.09993613243103028 from generation 70
-31/10/2024 13:55:56 starting generation 72
-31/10/2024 13:55:57 best fitness 0.09600978076457978 from generation 72
-31/10/2024 13:55:57 starting generation 73
-31/10/2024 13:55:59 best fitness 0.09600978076457978 from generation 72
-31/10/2024 13:55:59 starting generation 74
-31/10/2024 13:56:00 best fitness 0.09600978076457978 from generation 72
-31/10/2024 13:56:00 starting generation 75
-31/10/2024 13:56:02 best fitness 0.09600978076457978 from generation 72
-31/10/2024 13:56:02 starting generation 76
-31/10/2024 13:56:03 best fitness 0.09600978076457978 from generation 72
-31/10/2024 13:56:03 starting generation 77
-31/10/2024 13:56:05 best fitness 0.09600978076457978 from generation 72
-31/10/2024 13:56:05 starting generation 78
-31/10/2024 13:56:06 best fitness 0.09555324506759644 from generation 78
-31/10/2024 13:56:06 starting generation 79
-31/10/2024 13:56:08 best fitness 0.09264634144306183 from generation 79
-31/10/2024 13:56:08 starting generation 80
-31/10/2024 13:56:09 best fitness 0.09165634691715241 from generation 80
-31/10/2024 13:56:09 starting generation 81
-31/10/2024 13:56:11 best fitness 0.09165634691715241 from generation 80
-31/10/2024 13:56:11 starting generation 82
-31/10/2024 13:56:12 best fitness 0.08923610639572144 from generation 82
-31/10/2024 13:56:12 starting generation 83
-31/10/2024 13:56:14 best fitness 0.08923610639572144 from generation 82
-31/10/2024 13:56:14 starting generation 84
-31/10/2024 13:56:16 best fitness 0.08923610639572144 from generation 82
-31/10/2024 13:56:16 starting generation 85
-31/10/2024 13:56:17 best fitness 0.08878780901432037 from generation 85
-31/10/2024 13:56:17 starting generation 86
-31/10/2024 13:56:19 best fitness 0.08878780901432037 from generation 85
-31/10/2024 13:56:19 starting generation 87
-31/10/2024 13:56:20 best fitness 0.08878780901432037 from generation 85
-31/10/2024 13:56:20 starting generation 88
-31/10/2024 13:56:21 best fitness 0.08795520257949829 from generation 88
-31/10/2024 13:56:21 starting generation 89
-31/10/2024 13:56:23 best fitness 0.0874355137348175 from generation 89
-31/10/2024 13:56:23 starting generation 90
-31/10/2024 13:56:24 best fitness 0.08501788568496704 from generation 90
-31/10/2024 13:56:24 starting generation 91
-31/10/2024 13:56:26 best fitness 0.08456250619888306 from generation 91
-31/10/2024 13:56:26 starting generation 92
-31/10/2024 13:56:27 best fitness 0.08456250619888306 from generation 91
-31/10/2024 13:56:27 starting generation 93
-31/10/2024 13:56:29 best fitness 0.08456250619888306 from generation 91
-31/10/2024 13:56:29 starting generation 94
-31/10/2024 13:56:30 best fitness 0.08338422667980194 from generation 94
-31/10/2024 13:56:30 starting generation 95
-31/10/2024 13:56:31 best fitness 0.0831891725063324 from generation 95
-31/10/2024 13:56:31 starting generation 96
-31/10/2024 13:56:33 best fitness 0.08310702443122864 from generation 96
-31/10/2024 13:56:33 starting generation 97
-31/10/2024 13:56:34 best fitness 0.08310702443122864 from generation 96
-31/10/2024 13:56:34 starting generation 98
-31/10/2024 13:56:35 best fitness 0.08310702443122864 from generation 96
-31/10/2024 13:56:35 starting generation 99
-31/10/2024 13:56:37 best fitness 0.08247093653678894 from generation 99
-31/10/2024 13:56:37 GA done, start simulations
-31/10/2024 13:57:29 simulated genome296: fitness = 0.5852947405500009 (predicted 0.08247093653678894) with 101 streets
+02/11/2024 10:57:41 Initialisation: best fitness = 0.2821479790521245 with 186 streets
+02/11/2024 10:57:41 starting generation 0
+02/11/2024 10:59:06 new GNN model trained, mae = 0.05886471, r2 = 0.8231973012362575
+02/11/2024 11:03:06 simulated gen0genome230: fitness = 0.39833037479354744 (predicted 0.2586678547859192) with 167 streets
+02/11/2024 11:06:39 simulated gen0genome115: fitness = 0.3890623850117789 (predicted 0.26518210673332215) with 174 streets
+02/11/2024 11:10:16 simulated gen0genome26: fitness = 0.3655388666155847 (predicted 0.27375907003879546) with 150 streets
+02/11/2024 11:13:18 simulated gen0genome412: fitness = 0.3269978737567353 (predicted 0.27922803556919096) with 201 streets
+02/11/2024 11:16:22 simulated gen0genome40: fitness = 0.3382917987559964 (predicted 0.28400083220005035) with 216 streets
+02/11/2024 11:19:06 simulated gen0genome202: fitness = 0.32709561700945483 (predicted 0.32273113465309144) with 241 streets
+02/11/2024 11:22:19 simulated gen0genome496: fitness = 0.35714114438094635 (predicted 0.5155983052253723) with 221 streets
+02/11/2024 11:26:09 simulated gen0genome72: fitness = 0.3964691161829357 (predicted 0.507452086687088) with 173 streets
+02/11/2024 11:28:36 simulated gen0genome28: fitness = 0.32595866719585775 (predicted 0.3544414703845978) with 288 streets
+02/11/2024 11:31:27 simulated gen0genome381: fitness = 0.3544630341141277 (predicted 0.3625868026018143) with 266 streets
+02/11/2024 11:31:27 best fitness 0.2821479790521245 from generation -1
+02/11/2024 11:31:27 starting generation 1
+02/11/2024 11:35:11 simulated gen1genome50: fitness = 0.3924735999126006 (predicted 0.2533331151008606) with 162 streets
+02/11/2024 11:38:43 simulated gen1genome225: fitness = 0.4086391526761026 (predicted 0.2613398078680038) with 191 streets
+02/11/2024 11:42:03 simulated gen1genome226: fitness = 0.35858782688909996 (predicted 0.26660674452781674) with 190 streets
+02/11/2024 11:45:06 simulated gen1genome459: fitness = 0.3455525335247761 (predicted 0.27068568897247314) with 217 streets
+02/11/2024 11:48:24 simulated gen1genome153: fitness = 0.3756077002294675 (predicted 0.2714404504299164) with 223 streets
+02/11/2024 11:51:14 simulated gen1genome316: fitness = 0.3857781143518525 (predicted 0.38432505559921265) with 292 streets
+02/11/2024 11:53:57 simulated gen1genome295: fitness = 0.333891279204218 (predicted 0.35943135833740236) with 246 streets
+02/11/2024 11:56:56 simulated gen1genome344: fitness = 0.3362045517740651 (predicted 0.3627611479759216) with 221 streets
+02/11/2024 12:00:17 simulated gen1genome122: fitness = 0.36228534095456594 (predicted 0.3555458064079285) with 187 streets
+02/11/2024 12:03:05 simulated gen1genome57: fitness = 0.3357308698565446 (predicted 0.3494541964530945) with 246 streets
+02/11/2024 12:03:05 best fitness 0.2821479790521245 from generation -1
+02/11/2024 12:03:05 starting generation 2
+02/11/2024 12:06:34 simulated gen2genome439: fitness = 0.3702648495667076 (predicted 0.2512251651287079) with 185 streets
+02/11/2024 12:10:15 simulated gen2genome198: fitness = 0.39502324014355755 (predicted 0.2524192912578583) with 167 streets
+02/11/2024 12:13:27 simulated gen2genome320: fitness = 0.3393549909484931 (predicted 0.2582806631326675) with 189 streets
+02/11/2024 12:16:30 simulated gen2genome375: fitness = 0.31741604972025983 (predicted 0.2637173558473587) with 187 streets
+02/11/2024 12:19:39 simulated gen2genome140: fitness = 0.36737234156060466 (predicted 0.2648516025543213) with 209 streets
+02/11/2024 12:22:39 simulated gen2genome2: fitness = 0.349906847419982 (predicted 0.2777781140804291) with 220 streets
+02/11/2024 12:25:38 simulated gen2genome310: fitness = 0.3434481624524788 (predicted 0.3286890753507614) with 229 streets
+02/11/2024 12:29:32 simulated gen2genome283: fitness = 0.4420204540929751 (predicted 0.37035392546653745) with 194 streets
+02/11/2024 12:32:28 simulated gen2genome222: fitness = 0.32972320302763153 (predicted 0.30400927901268004) with 215 streets
+02/11/2024 12:35:27 simulated gen2genome17: fitness = 0.35074300931787084 (predicted 0.34607014060020447) with 225 streets
+02/11/2024 12:35:27 best fitness 0.2821479790521245 from generation -1
+02/11/2024 12:35:27 starting generation 3
+02/11/2024 12:39:42 simulated gen3genome382: fitness = 0.4714488720446097 (predicted 0.25589368617534636) with 206 streets
+02/11/2024 12:42:54 simulated gen3genome430: fitness = 0.36341568758921083 (predicted 0.25845480024814604) with 210 streets
+02/11/2024 12:46:19 simulated gen3genome30: fitness = 0.35978939675648286 (predicted 0.2591153062582016) with 182 streets
+02/11/2024 12:49:33 simulated gen3genome261: fitness = 0.3816698275167914 (predicted 0.2625221562385559) with 220 streets
+02/11/2024 12:52:36 simulated gen3genome404: fitness = 0.3175124069045414 (predicted 0.26294868493080137) with 199 streets
+02/11/2024 12:55:49 simulated gen3genome269: fitness = 0.34509031193506773 (predicted 0.30672260427474973) with 199 streets
+02/11/2024 12:59:13 simulated gen3genome338: fitness = 0.36652386173904 (predicted 0.2936996693611145) with 187 streets
+02/11/2024 13:02:09 simulated gen3genome133: fitness = 0.34625657963355116 (predicted 0.3080506155490875) with 226 streets
+02/11/2024 13:05:23 simulated gen3genome252: fitness = 0.3671191097234078 (predicted 0.29710806024074554) with 222 streets
+02/11/2024 13:08:11 simulated gen3genome456: fitness = 0.3349276809542178 (predicted 0.31975474894046785) with 240 streets
+02/11/2024 13:08:11 best fitness 0.2821479790521245 from generation -1
+02/11/2024 13:08:11 starting generation 4
+02/11/2024 22:23:01 Initialisation: best fitness = 0.2821479790521245 with 186 streets
+02/11/2024 22:23:01 starting generation 0
+02/11/2024 22:23:29 new GNN model trained, mae = 0.054360643, r2 = 0.8379050740519166
+02/11/2024 22:26:28 simulated gen0genome54: fitness = 0.3272092415809226 (predicted 0.24416038453578948) with 210 streets
+02/11/2024 22:29:36 simulated gen0genome479: fitness = 0.34261953742298423 (predicted 0.25714480805397033) with 218 streets
+02/11/2024 22:32:24 simulated gen0genome107: fitness = 0.3383036087587518 (predicted 0.2640917959213257) with 244 streets
+02/11/2024 22:35:10 simulated gen0genome232: fitness = 0.35602806693117905 (predicted 0.26577206242084506) with 253 streets
+02/11/2024 22:38:30 simulated gen0genome250: fitness = 0.3632890356577896 (predicted 0.26645930159091946) with 188 streets
+02/11/2024 22:41:20 simulated gen0genome221: fitness = 0.3317246821222275 (predicted 0.33528940117359163) with 241 streets
+02/11/2024 22:43:57 simulated gen0genome474: fitness = 0.36067466573495915 (predicted 0.34116092908382417) with 303 streets
+02/11/2024 22:46:34 simulated gen0genome43: fitness = 0.4129171904394286 (predicted 0.3923297281265259) with 362 streets
+02/11/2024 22:49:23 simulated gen0genome14: fitness = 0.3056094412857551 (predicted 0.3986449165344238) with 192 streets
+02/11/2024 22:51:56 simulated gen0genome463: fitness = 0.37264582864337853 (predicted 0.35820553767681124) with 308 streets
+02/11/2024 22:51:56 best fitness 0.2821479790521245 from generation -1
+02/11/2024 22:51:56 starting generation 1
+02/11/2024 22:55:05 simulated gen1genome36: fitness = 0.33639409302026535 (predicted 0.23346226048469543) with 217 streets
+02/11/2024 22:58:02 simulated gen1genome164: fitness = 0.34861908178917506 (predicted 0.23745629930496215) with 214 streets
+02/11/2024 23:00:59 simulated gen1genome267: fitness = 0.33398155867626095 (predicted 0.2410121796131134) with 206 streets
+02/11/2024 23:03:46 simulated gen1genome19: fitness = 0.3260306345126678 (predicted 0.2495914353132248) with 242 streets
+02/11/2024 23:06:46 simulated gen1genome192: fitness = 0.33935582646261336 (predicted 0.25111445784568787) with 225 streets
+02/11/2024 23:10:02 simulated gen1genome314: fitness = 0.352088968715256 (predicted 0.3320070929527283) with 182 streets
+02/11/2024 23:12:58 simulated gen1genome475: fitness = 0.36845724755282694 (predicted 0.324395058631897) with 248 streets
+02/11/2024 23:15:40 simulated gen1genome91: fitness = 0.3741656154716755 (predicted 0.3520943682193756) with 298 streets
+02/11/2024 23:18:30 simulated gen1genome401: fitness = 0.33993319212580875 (predicted 0.3348834495544434) with 248 streets
+02/11/2024 23:21:21 simulated gen1genome251: fitness = 0.3929591035997932 (predicted 0.335937304019928) with 307 streets
+02/11/2024 23:21:21 best fitness 0.2821479790521245 from generation -1
+02/11/2024 23:21:21 starting generation 2
+02/11/2024 23:24:38 simulated gen2genome244: fitness = 0.356701153075496 (predicted 0.204743173122406) with 190 streets
+02/11/2024 23:27:59 simulated gen2genome401: fitness = 0.3581451782486965 (predicted 0.23934278082847596) with 202 streets
+02/11/2024 23:30:53 simulated gen2genome85: fitness = 0.32469297666813995 (predicted 0.23941044569015502) with 210 streets
+02/11/2024 23:33:49 simulated gen2genome314: fitness = 0.32892098795584745 (predicted 0.24525930249691008) with 209 streets
+02/11/2024 23:36:44 simulated gen2genome482: fitness = 0.3305736097583648 (predicted 0.25100635731220244) with 214 streets
+02/11/2024 23:39:27 simulated gen2genome96: fitness = 0.3380893087254917 (predicted 0.3233343988656998) with 275 streets
+02/11/2024 23:42:11 simulated gen2genome273: fitness = 0.31951212418706576 (predicted 0.28283212339878083) with 236 streets
+02/11/2024 23:45:18 simulated gen2genome219: fitness = 0.3498420005733312 (predicted 0.36625854325294493) with 212 streets
+02/11/2024 23:48:21 simulated gen2genome8: fitness = 0.3506486824620654 (predicted 0.3170199611186981) with 229 streets
+02/11/2024 23:51:47 simulated gen2genome355: fitness = 0.3816701006873034 (predicted 0.27523710572719573) with 214 streets
+02/11/2024 23:51:47 best fitness 0.2821479790521245 from generation -1
+02/11/2024 23:51:47 starting generation 3
+02/11/2024 23:54:47 simulated gen3genome291: fitness = 0.3271190141233376 (predicted 0.22150540482997894) with 217 streets
+02/11/2024 23:58:03 simulated gen3genome138: fitness = 0.3708607405592848 (predicted 0.24506509160995482) with 211 streets
+03/11/2024 00:01:36 simulated gen3genome276: fitness = 0.40788367520519286 (predicted 0.2465569769144058) with 213 streets
+03/11/2024 00:04:24 simulated gen3genome117: fitness = 0.3257283818921911 (predicted 0.24687305092811584) with 225 streets
+03/11/2024 00:07:38 simulated gen3genome89: fitness = 0.37880636354002406 (predicted 0.24703065848350525) with 226 streets
+03/11/2024 00:10:59 simulated gen3genome22: fitness = 0.3870793358785454 (predicted 0.25728261399269103) with 218 streets
+03/11/2024 00:13:59 simulated gen3genome20: fitness = 0.3225184899756216 (predicted 0.35667206811904906) with 208 streets
+03/11/2024 00:16:50 simulated gen3genome232: fitness = 0.3437555479034912 (predicted 0.2813002995252609) with 221 streets
+03/11/2024 00:20:12 simulated gen3genome236: fitness = 0.38870807232317345 (predicted 0.2833188440799713) with 234 streets
+03/11/2024 00:23:13 simulated gen3genome286: fitness = 0.3313109263694122 (predicted 0.26654864704608916) with 211 streets
+03/11/2024 00:23:13 best fitness 0.2821479790521245 from generation -1
+03/11/2024 00:23:13 starting generation 4
+03/11/2024 00:26:07 simulated gen4genome474: fitness = 0.2876381904094483 (predicted 0.21804283952713013) with 201 streets
+03/11/2024 00:29:15 simulated gen4genome336: fitness = 0.3625901112624775 (predicted 0.23293134701251983) with 217 streets
+03/11/2024 00:32:13 simulated gen4genome229: fitness = 0.3470226073860305 (predicted 0.23680357360839843) with 219 streets
+03/11/2024 00:35:43 simulated gen4genome189: fitness = 0.42577543887285263 (predicted 0.24210144996643065) with 245 streets
+03/11/2024 00:38:58 simulated gen4genome444: fitness = 0.378985819141305 (predicted 0.2438763128519058) with 208 streets
+03/11/2024 00:41:59 simulated gen4genome296: fitness = 0.3412694303802677 (predicted 0.3043917132616043) with 217 streets
+03/11/2024 00:45:01 simulated gen4genome200: fitness = 0.35487028530619386 (predicted 0.3195106576681137) with 223 streets
+03/11/2024 00:48:15 simulated gen4genome12: fitness = 0.3955840259565278 (predicted 0.27377607476711274) with 237 streets
+03/11/2024 00:51:15 simulated gen4genome166: fitness = 0.34100123207298716 (predicted 0.3460990203619003) with 217 streets
+03/11/2024 00:54:18 simulated gen4genome350: fitness = 0.35283487482551135 (predicted 0.27990534830093383) with 218 streets
+03/11/2024 00:54:18 best fitness 0.2821479790521245 from generation -1
+03/11/2024 00:54:18 starting generation 5
+03/11/2024 00:57:29 simulated gen5genome346: fitness = 0.33683716849706136 (predicted 0.20891742742061614) with 216 streets
+03/11/2024 01:00:59 simulated gen5genome134: fitness = 0.39362755228557156 (predicted 0.2111898523569107) with 195 streets
+03/11/2024 01:03:57 simulated gen5genome62: fitness = 0.3409197269762711 (predicted 0.22649382734298706) with 229 streets
+03/11/2024 01:07:06 simulated gen5genome155: fitness = 0.3554101170792563 (predicted 0.23174451899528503) with 222 streets
+03/11/2024 01:10:05 simulated gen5genome387: fitness = 0.3439286177617218 (predicted 0.23267991030216217) with 229 streets
+03/11/2024 01:13:20 simulated gen5genome444: fitness = 0.3624657757839003 (predicted 0.2504872130155563) with 208 streets
+03/11/2024 01:16:04 simulated gen5genome39: fitness = 0.31473774234814395 (predicted 0.2829296507835388) with 229 streets
+03/11/2024 01:19:43 simulated gen5genome287: fitness = 0.4217959109985654 (predicted 0.2939085017442703) with 198 streets
+03/11/2024 01:23:04 simulated gen5genome253: fitness = 0.38245854964699577 (predicted 0.3321242345571518) with 217 streets
+03/11/2024 01:26:01 simulated gen5genome89: fitness = 0.34661245295793564 (predicted 0.24888120329380037) with 241 streets
+03/11/2024 01:26:01 best fitness 0.2821479790521245 from generation -1
+03/11/2024 01:26:01 starting generation 6
+03/11/2024 01:29:54 simulated gen6genome278: fitness = 0.470050911684793 (predicted 0.2129242366552353) with 235 streets
+03/11/2024 01:33:26 simulated gen6genome188: fitness = 0.42408102417790866 (predicted 0.22458657073974608) with 213 streets
+03/11/2024 01:37:17 simulated gen6genome88: fitness = 0.46712715569444113 (predicted 0.2312593764066696) with 210 streets
+03/11/2024 01:40:22 simulated gen6genome415: fitness = 0.35552078250879526 (predicted 0.2326308671236038) with 216 streets
+03/11/2024 01:43:35 simulated gen6genome0: fitness = 0.3698549543582905 (predicted 0.23447662997245788) with 223 streets
+03/11/2024 01:46:22 simulated gen6genome14: fitness = 0.322256109315639 (predicted 0.30692676043510436) with 216 streets
+03/11/2024 01:49:50 simulated gen6genome125: fitness = 0.40214455830637186 (predicted 0.25885144412517547) with 215 streets
+03/11/2024 01:52:59 simulated gen6genome387: fitness = 0.3568331614054134 (predicted 0.3193180627822876) with 207 streets
+03/11/2024 01:55:54 simulated gen6genome117: fitness = 0.35364345462693353 (predicted 0.2441605132818222) with 220 streets
+03/11/2024 01:58:56 simulated gen6genome290: fitness = 0.3276917969418486 (predicted 0.2663722538948059) with 215 streets
+03/11/2024 01:58:56 best fitness 0.2821479790521245 from generation -1
+03/11/2024 01:58:56 starting generation 7
+03/11/2024 02:02:10 simulated gen7genome59: fitness = 0.37143107390826324 (predicted 0.21372283387184143) with 228 streets
+03/11/2024 02:05:25 simulated gen7genome294: fitness = 0.3758612836047942 (predicted 0.21393598210811615) with 227 streets
+03/11/2024 02:08:57 simulated gen7genome415: fitness = 0.4305795718260967 (predicted 0.22431266236305236) with 218 streets
+03/11/2024 02:11:51 simulated gen7genome441: fitness = 0.33668758708872987 (predicted 0.22554160380363464) with 219 streets
+03/11/2024 02:15:29 simulated gen7genome13: fitness = 0.43302667544354856 (predicted 0.22659926795959473) with 229 streets
+03/11/2024 02:18:19 simulated gen7genome212: fitness = 0.3108844506668931 (predicted 0.30386218559741973) with 217 streets
+03/11/2024 02:21:24 simulated gen7genome379: fitness = 0.36865564990754374 (predicted 0.2941549400091171) with 226 streets
+03/11/2024 02:24:44 simulated gen7genome464: fitness = 0.3963925023474636 (predicted 0.2568876066207886) with 229 streets
+03/11/2024 02:27:48 simulated gen7genome450: fitness = 0.3616786889390361 (predicted 0.24493386936187744) with 227 streets
+03/11/2024 02:30:44 simulated gen7genome339: fitness = 0.3430981429531935 (predicted 0.29446886682510376) with 224 streets
+03/11/2024 02:30:44 best fitness 0.2821479790521245 from generation -1
+03/11/2024 02:30:44 starting generation 8
+03/11/2024 02:34:23 simulated gen8genome403: fitness = 0.4172334547989614 (predicted 0.2148598458766937) with 209 streets
+03/11/2024 02:38:08 simulated gen8genome262: fitness = 0.4200109032979763 (predicted 0.2229165779352188) with 208 streets
+03/11/2024 02:41:10 simulated gen8genome131: fitness = 0.34383599263664916 (predicted 0.22347925329208373) with 219 streets
+03/11/2024 02:44:13 simulated gen8genome497: fitness = 0.3251979903247069 (predicted 0.22497159099578856) with 211 streets
+03/11/2024 02:47:28 simulated gen8genome0: fitness = 0.3558620703650231 (predicted 0.22714180493354796) with 214 streets
+03/11/2024 02:50:44 simulated gen8genome216: fitness = 0.3802829207876965 (predicted 0.29813501369953155) with 217 streets
+03/11/2024 02:54:00 simulated gen8genome42: fitness = 0.37635202893972425 (predicted 0.24045533204078673) with 209 streets
+03/11/2024 02:57:30 simulated gen8genome5: fitness = 0.4211807303800489 (predicted 0.37994596219062804) with 211 streets
+03/11/2024 03:00:49 simulated gen8genome401: fitness = 0.3675390305190277 (predicted 0.24811746037006377) with 211 streets
+03/11/2024 03:04:23 simulated gen8genome5: fitness = 0.4211807303800489 (predicted 0.4211807303800489) with 211 streets
+03/11/2024 03:04:23 best fitness 0.2821479790521245 from generation -1
+03/11/2024 03:04:23 starting generation 9
+03/11/2024 03:07:52 simulated gen9genome447: fitness = 0.38284677288799335 (predicted 0.21225780987739562) with 214 streets
+03/11/2024 03:10:46 simulated gen9genome196: fitness = 0.3343238508020746 (predicted 0.2124201797246933) with 218 streets
+03/11/2024 03:14:29 simulated gen9genome332: fitness = 0.42447842754322096 (predicted 0.21518473994731901) with 207 streets
+03/11/2024 03:17:52 simulated gen9genome73: fitness = 0.402539648275319 (predicted 0.2250229729413986) with 217 streets
+03/11/2024 03:21:10 simulated gen9genome155: fitness = 0.38663282207892946 (predicted 0.22515785825252532) with 217 streets
+03/11/2024 03:24:29 simulated gen9genome402: fitness = 0.3959502323921874 (predicted 0.2762842516899109) with 223 streets
+03/11/2024 03:27:21 simulated gen9genome143: fitness = 0.3383367219195611 (predicted 0.2990362651348114) with 232 streets
+03/11/2024 03:30:46 simulated gen9genome498: fitness = 0.41092955401988973 (predicted 0.2638108695745468) with 212 streets
+03/11/2024 03:33:56 simulated gen9genome215: fitness = 0.3553172743441929 (predicted 0.31716525280475616) with 219 streets
+03/11/2024 03:37:08 simulated gen9genome398: fitness = 0.3654429805229346 (predicted 0.2912721599340439) with 212 streets
+03/11/2024 03:37:09 best fitness 0.2821479790521245 from generation -1
+03/11/2024 03:37:09 starting generation 10
+03/11/2024 03:38:00 new GNN model trained, mae = 0.06852202, r2 = 0.7196771015267065
+03/11/2024 03:41:19 simulated gen10genome106: fitness = 0.35212027618123454 (predicted 0.2425324251651764) with 199 streets
+03/11/2024 03:44:46 simulated gen10genome310: fitness = 0.40699992911468885 (predicted 0.24662397992610932) with 202 streets
+03/11/2024 03:47:56 simulated gen10genome84: fitness = 0.3420469862582457 (predicted 0.2528195102214813) with 202 streets
+03/11/2024 03:51:06 simulated gen10genome394: fitness = 0.34057950365848066 (predicted 0.25765517544746397) with 202 streets
+03/11/2024 03:55:26 simulated gen10genome432: fitness = 0.4962861374967631 (predicted 0.25827782988548276) with 190 streets
+03/11/2024 03:59:02 simulated gen10genome355: fitness = 0.41165082371846007 (predicted 0.28953777718544005) with 208 streets
+03/11/2024 04:02:04 simulated gen10genome340: fitness = 0.3567318023829358 (predicted 0.2978949329853058) with 221 streets
+03/11/2024 04:05:35 simulated gen10genome103: fitness = 0.4086617786948503 (predicted 0.31966090393066404) with 202 streets
+03/11/2024 04:08:57 simulated gen10genome219: fitness = 0.37497563656665533 (predicted 0.2959957664012909) with 213 streets
+03/11/2024 04:12:30 simulated gen10genome131: fitness = 0.41175352153409667 (predicted 0.414234224319458) with 216 streets
+03/11/2024 04:12:30 best fitness 0.2821479790521245 from generation -1
+03/11/2024 04:12:30 starting generation 11
+03/11/2024 04:15:46 simulated gen11genome396: fitness = 0.34828766597618543 (predicted 0.25192524206638334) with 197 streets
+03/11/2024 04:18:52 simulated gen11genome168: fitness = 0.3480047625689198 (predicted 0.257373007774353) with 209 streets
+03/11/2024 04:22:09 simulated gen11genome493: fitness = 0.3552781530109088 (predicted 0.25755688405036925) with 211 streets
+03/11/2024 04:26:03 simulated gen11genome164: fitness = 0.44408535956940964 (predicted 0.2578509767055511) with 202 streets
+03/11/2024 04:29:34 simulated gen11genome188: fitness = 0.42146246046334546 (predicted 0.2579366841316223) with 204 streets
+03/11/2024 04:32:50 simulated gen11genome433: fitness = 0.36874973770342173 (predicted 0.2903882927894592) with 207 streets
+03/11/2024 04:36:48 simulated gen11genome148: fitness = 0.47140367373850894 (predicted 0.3506957447528839) with 210 streets
+03/11/2024 04:40:26 simulated gen11genome107: fitness = 0.42434137723064747 (predicted 0.31887512707710264) with 199 streets
+03/11/2024 04:43:41 simulated gen11genome449: fitness = 0.38131925920556 (predicted 0.31219388675689697) with 217 streets
+03/11/2024 04:47:08 simulated gen11genome494: fitness = 0.40608533948051784 (predicted 0.3221340510845184) with 216 streets
+03/11/2024 04:47:08 best fitness 0.2821479790521245 from generation -1
+03/11/2024 04:47:08 starting generation 12
+03/11/2024 04:50:46 simulated gen12genome81: fitness = 0.3956333520826161 (predicted 0.24035661923885346) with 198 streets
+03/11/2024 04:54:05 simulated gen12genome29: fitness = 0.3662416143638072 (predicted 0.25014546704292295) with 202 streets
+03/11/2024 04:57:13 simulated gen12genome272: fitness = 0.3615298081049203 (predicted 0.2507545073032379) with 202 streets
+03/11/2024 05:00:20 simulated gen12genome38: fitness = 0.33171130690281214 (predicted 0.2547096161842346) with 203 streets
+03/11/2024 05:03:24 simulated gen12genome95: fitness = 0.32826515579258364 (predicted 0.25516480326652524) with 195 streets
+03/11/2024 05:07:00 simulated gen12genome306: fitness = 0.4078602398724636 (predicted 0.37259838247299193) with 209 streets
+03/11/2024 05:10:28 simulated gen12genome365: fitness = 0.37918535840721335 (predicted 0.2771549115180969) with 201 streets
+03/11/2024 05:13:29 simulated gen12genome196: fitness = 0.360214630877764 (predicted 0.2816810939311981) with 216 streets
+03/11/2024 05:16:27 simulated gen12genome441: fitness = 0.3262554324109762 (predicted 0.3021408894062042) with 204 streets
+03/11/2024 05:19:47 simulated gen12genome446: fitness = 0.37618416611742 (predicted 0.27647443175315856) with 210 streets
+03/11/2024 05:19:47 best fitness 0.2821479790521245 from generation -1
+03/11/2024 05:19:47 starting generation 13
+03/11/2024 05:23:16 simulated gen13genome266: fitness = 0.37342733992720567 (predicted 0.2460188457965851) with 201 streets
+03/11/2024 05:26:22 simulated gen13genome389: fitness = 0.3378053023440134 (predicted 0.24720670068264008) with 204 streets
+03/11/2024 05:30:16 simulated gen13genome356: fitness = 0.48185214966640405 (predicted 0.25143411338329313) with 205 streets
+03/11/2024 05:33:32 simulated gen13genome287: fitness = 0.36676944792449856 (predicted 0.2525627815723419) with 215 streets
+03/11/2024 05:37:03 simulated gen13genome497: fitness = 0.39352820631253665 (predicted 0.2544358012676239) with 206 streets
+03/11/2024 05:40:03 simulated gen13genome322: fitness = 0.3600448160744223 (predicted 0.27781316220760344) with 205 streets
+03/11/2024 05:43:04 simulated gen13genome410: fitness = 0.3328356639026626 (predicted 0.2598615206480026) with 207 streets
+03/11/2024 05:47:10 simulated gen13genome336: fitness = 0.47653407046591056 (predicted 0.2856685843467712) with 209 streets
+03/11/2024 05:50:11 simulated gen13genome391: fitness = 0.3569104631055751 (predicted 0.32992725205421447) with 217 streets
+03/11/2024 05:53:43 simulated gen13genome291: fitness = 0.37439629934312435 (predicted 0.35838906455039976) with 203 streets
+03/11/2024 05:53:43 best fitness 0.2821479790521245 from generation -1
+03/11/2024 05:53:43 starting generation 14
+03/11/2024 05:57:59 simulated gen14genome122: fitness = 0.4790662230169611 (predicted 0.23649128580093384) with 199 streets
+03/11/2024 06:01:21 simulated gen14genome140: fitness = 0.37016743085809445 (predicted 0.24588185942173005) with 201 streets
+03/11/2024 06:04:35 simulated gen14genome325: fitness = 0.3616142230025121 (predicted 0.24836045694351197) with 202 streets
+03/11/2024 06:08:04 simulated gen14genome99: fitness = 0.4004827900279726 (predicted 0.2525198438167572) with 204 streets
+03/11/2024 06:11:33 simulated gen14genome442: fitness = 0.39237564574050865 (predicted 0.252930536031723) with 196 streets
+03/11/2024 06:15:11 simulated gen14genome367: fitness = 0.4146904286215439 (predicted 0.29598904252052305) with 200 streets
+03/11/2024 06:18:12 simulated gen14genome474: fitness = 0.34139410995234376 (predicted 0.2715435216426849) with 201 streets
+03/11/2024 06:21:47 simulated gen14genome345: fitness = 0.40686057982171364 (predicted 0.25931452202796934) with 203 streets
+03/11/2024 06:25:10 simulated gen14genome471: fitness = 0.3886988946771639 (predicted 0.2784105002880096) with 200 streets
+03/11/2024 06:28:15 simulated gen14genome138: fitness = 0.3346128729897385 (predicted 0.2992081708908081) with 207 streets
+03/11/2024 06:28:15 best fitness 0.2821479790521245 from generation -1
+03/11/2024 06:28:15 starting generation 15
+03/11/2024 06:31:33 simulated gen15genome179: fitness = 0.35434161327241553 (predicted 0.23722163236141205) with 201 streets
+03/11/2024 06:34:46 simulated gen15genome146: fitness = 0.35938371143622005 (predicted 0.24430277252197266) with 199 streets
+03/11/2024 06:38:01 simulated gen15genome99: fitness = 0.36564575945317546 (predicted 0.24946797823905945) with 191 streets
+03/11/2024 06:41:36 simulated gen15genome404: fitness = 0.39724504695544227 (predicted 0.24988556027412415) with 195 streets
+03/11/2024 06:44:56 simulated gen15genome262: fitness = 0.37472057003471687 (predicted 0.25069025218486785) with 210 streets
+03/11/2024 06:47:58 simulated gen15genome446: fitness = 0.36200948445074604 (predicted 0.35913096499443053) with 217 streets
+03/11/2024 06:50:54 simulated gen15genome476: fitness = 0.327755062053907 (predicted 0.28290517485141753) with 211 streets
+03/11/2024 06:54:21 simulated gen15genome1: fitness = 0.3800030758184273 (predicted 0.2551680219173431) with 195 streets
+03/11/2024 06:57:47 simulated gen15genome19: fitness = 0.39823432183283164 (predicted 0.2826891161203384) with 207 streets
+03/11/2024 07:01:17 simulated gen15genome210: fitness = 0.43811860148102477 (predicted 0.282837971329689) with 218 streets
+03/11/2024 07:01:17 best fitness 0.2821479790521245 from generation -1
+03/11/2024 07:01:17 starting generation 16
+03/11/2024 07:05:05 simulated gen16genome161: fitness = 0.39926735810957226 (predicted 0.24284108781814576) with 199 streets
+03/11/2024 07:08:17 simulated gen16genome370: fitness = 0.35180357769127824 (predicted 0.24327966356277467) with 204 streets
+03/11/2024 07:11:53 simulated gen16genome192: fitness = 0.413637509777483 (predicted 0.24338834643363955) with 185 streets
+03/11/2024 07:14:56 simulated gen16genome403: fitness = 0.3182419765252897 (predicted 0.24642951226234436) with 191 streets
+03/11/2024 07:18:43 simulated gen16genome361: fitness = 0.43138053413596933 (predicted 0.24678973841667176) with 203 streets
+03/11/2024 07:22:23 simulated gen16genome314: fitness = 0.4341526626547544 (predicted 0.26336664700508117) with 214 streets
+03/11/2024 07:25:33 simulated gen16genome257: fitness = 0.34980635735238114 (predicted 0.30893529534339903) with 205 streets
+03/11/2024 07:29:08 simulated gen16genome294: fitness = 0.40305915695289773 (predicted 0.2551135649681091) with 199 streets
+03/11/2024 07:32:24 simulated gen16genome124: fitness = 0.3600587437518048 (predicted 0.33463350677490233) with 214 streets
+03/11/2024 07:35:48 simulated gen16genome199: fitness = 0.3799763638372603 (predicted 0.32061130809783933) with 198 streets
+03/11/2024 07:35:48 best fitness 0.2821479790521245 from generation -1
+03/11/2024 07:35:48 starting generation 17
+03/11/2024 07:39:04 simulated gen17genome235: fitness = 0.35004814227154313 (predicted 0.24107765257358552) with 200 streets
+03/11/2024 07:42:27 simulated gen17genome47: fitness = 0.3726023475113728 (predicted 0.24208766949176788) with 192 streets
+03/11/2024 07:45:47 simulated gen17genome323: fitness = 0.36520955271445016 (predicted 0.24279684901237486) with 205 streets
+03/11/2024 07:49:01 simulated gen17genome459: fitness = 0.35127109871306383 (predicted 0.24593710613250733) with 197 streets
+03/11/2024 07:52:35 simulated gen17genome265: fitness = 0.38334797943291954 (predicted 0.2472546057701111) with 183 streets
+03/11/2024 07:55:48 simulated gen17genome350: fitness = 0.35434873712891335 (predicted 0.29530454277992246) with 200 streets
+03/11/2024 07:59:22 simulated gen17genome102: fitness = 0.4024543498413872 (predicted 0.37305349779129027) with 207 streets
+03/11/2024 08:02:28 simulated gen17genome317: fitness = 0.3417071576218624 (predicted 0.2951022819280624) with 211 streets
+03/11/2024 08:05:52 simulated gen17genome267: fitness = 0.37916972049990894 (predicted 0.28439820408821104) with 200 streets
+03/11/2024 08:08:57 simulated gen17genome285: fitness = 0.34292561778900393 (predicted 0.28223457717895506) with 204 streets
+03/11/2024 08:08:57 best fitness 0.2821479790521245 from generation -1
+03/11/2024 08:08:57 starting generation 18
+03/11/2024 08:12:52 simulated gen18genome149: fitness = 0.42821373789178885 (predicted 0.23088111913204193) with 191 streets
+03/11/2024 08:15:57 simulated gen18genome497: fitness = 0.34842089961430506 (predicted 0.24334803009033204) with 204 streets
+03/11/2024 08:19:46 simulated gen18genome431: fitness = 0.4280873414774815 (predicted 0.2433706533908844) with 195 streets
+03/11/2024 08:23:32 simulated gen18genome456: fitness = 0.4086365220008839 (predicted 0.24483117032051088) with 183 streets
+03/11/2024 08:26:45 simulated gen18genome196: fitness = 0.3398899581007814 (predicted 0.24550834012031555) with 197 streets
+03/11/2024 08:30:13 simulated gen18genome362: fitness = 0.371662809739018 (predicted 0.28402153587341306) with 191 streets
+03/11/2024 08:33:35 simulated gen18genome358: fitness = 0.3878874343035854 (predicted 0.2877887167930603) with 204 streets
+03/11/2024 08:36:33 simulated gen18genome162: fitness = 0.31659120191417545 (predicted 0.28631278991699216) with 195 streets
+03/11/2024 08:39:55 simulated gen18genome247: fitness = 0.38276504944901213 (predicted 0.2534902554750442) with 195 streets
+03/11/2024 08:43:54 simulated gen18genome367: fitness = 0.4543427955968271 (predicted 0.29699805164337156) with 204 streets
+03/11/2024 08:43:54 best fitness 0.2821479790521245 from generation -1
+03/11/2024 08:43:54 starting generation 19
+03/11/2024 08:47:29 simulated gen19genome96: fitness = 0.3857922631315698 (predicted 0.23238216257095337) with 196 streets
+03/11/2024 08:50:58 simulated gen19genome431: fitness = 0.3792514782590879 (predicted 0.23274002480506897) with 198 streets
+03/11/2024 08:54:33 simulated gen19genome73: fitness = 0.37430872396220294 (predicted 0.2364169743061066) with 184 streets
+03/11/2024 08:58:07 simulated gen19genome230: fitness = 0.36581606423893454 (predicted 0.23722324562072755) with 177 streets
+03/11/2024 09:01:36 simulated gen19genome32: fitness = 0.39839872987469693 (predicted 0.24050366652011873) with 182 streets
+03/11/2024 09:05:06 simulated gen19genome337: fitness = 0.3973642971173441 (predicted 0.2960072178840637) with 202 streets
+03/11/2024 09:08:45 simulated gen19genome328: fitness = 0.4185858484149705 (predicted 0.25516430747509) with 197 streets
+03/11/2024 09:12:22 simulated gen19genome107: fitness = 0.42160991481094223 (predicted 0.26088135945796964) with 198 streets
+03/11/2024 09:15:45 simulated gen19genome494: fitness = 0.38525303420263357 (predicted 0.28493560767173765) with 196 streets
+03/11/2024 09:19:27 simulated gen19genome191: fitness = 0.42457387075087516 (predicted 0.2988927295207977) with 199 streets
+03/11/2024 09:19:27 best fitness 0.2821479790521245 from generation -1
+03/11/2024 09:19:27 starting generation 20
+03/11/2024 09:20:28 new GNN model trained, mae = 0.06906131, r2 = 0.7821488342683658
+03/11/2024 09:23:51 simulated gen20genome443: fitness = 0.36136001296138875 (predicted 0.2801904520988464) with 196 streets
+03/11/2024 09:27:26 simulated gen20genome393: fitness = 0.39073301167677965 (predicted 0.2819209063053131) with 190 streets
+03/11/2024 09:31:06 simulated gen20genome320: fitness = 0.4041464174900419 (predicted 0.2840939683914184) with 192 streets
+03/11/2024 09:34:55 simulated gen20genome353: fitness = 0.4391643953706299 (predicted 0.28712024521827695) with 192 streets
+03/11/2024 09:38:29 simulated gen20genome346: fitness = 0.39635365154705615 (predicted 0.28817204642295835) with 198 streets
+03/11/2024 09:42:14 simulated gen20genome339: fitness = 0.41726334830135503 (predicted 0.3020047686100006) with 196 streets
+03/11/2024 09:45:21 simulated gen20genome23: fitness = 0.34384164735696476 (predicted 0.32359923338890073) with 196 streets
+03/11/2024 09:49:07 simulated gen20genome191: fitness = 0.40678917644753154 (predicted 0.33548181080818174) with 194 streets
+03/11/2024 09:53:03 simulated gen20genome429: fitness = 0.4348321221463207 (predicted 0.32474515843391416) with 198 streets
+03/11/2024 09:56:19 simulated gen20genome11: fitness = 0.36783259639834787 (predicted 0.34876297402381895) with 203 streets
+03/11/2024 09:56:19 best fitness 0.2821479790521245 from generation -1
+03/11/2024 09:56:19 starting generation 21
+03/11/2024 09:59:47 simulated gen21genome312: fitness = 0.3696928629001656 (predicted 0.2743903911113739) with 185 streets
+03/11/2024 10:03:16 simulated gen21genome465: fitness = 0.37210144571636156 (predicted 0.27583280658721926) with 186 streets
+03/11/2024 10:06:39 simulated gen21genome120: fitness = 0.36296870219574984 (predicted 0.276618634223938) with 186 streets
+03/11/2024 10:09:57 simulated gen21genome475: fitness = 0.3574441728915395 (predicted 0.28136277449131014) with 187 streets
+03/11/2024 10:14:18 simulated gen21genome248: fitness = 0.4656243457085506 (predicted 0.2815541317462921) with 174 streets
+03/11/2024 10:17:36 simulated gen21genome79: fitness = 0.3651481310649496 (predicted 0.31785174310207365) with 200 streets
+03/11/2024 10:21:05 simulated gen21genome487: fitness = 0.38959125807439765 (predicted 0.31770381116867064) with 204 streets
+03/11/2024 10:24:35 simulated gen21genome381: fitness = 0.37751054480529034 (predicted 0.29143627238273623) with 187 streets
+03/11/2024 10:28:20 simulated gen21genome155: fitness = 0.42803083342332493 (predicted 0.3394444589614868) with 188 streets
+03/11/2024 10:31:52 simulated gen21genome403: fitness = 0.37494483220204733 (predicted 0.3038765745162964) with 183 streets
+03/11/2024 10:31:52 best fitness 0.2821479790521245 from generation -1
+03/11/2024 10:31:52 starting generation 22
+03/11/2024 10:35:23 simulated gen22genome80: fitness = 0.3601026636790083 (predicted 0.2780563740730286) with 178 streets
+03/11/2024 10:39:10 simulated gen22genome222: fitness = 0.39319739468845666 (predicted 0.2785318539142609) with 186 streets
+03/11/2024 10:42:48 simulated gen22genome379: fitness = 0.39522370119826933 (predicted 0.2804290060997009) with 188 streets
+03/11/2024 10:46:13 simulated gen22genome288: fitness = 0.3578208832904405 (predicted 0.2819802420139313) with 183 streets
+03/11/2024 10:50:04 simulated gen22genome400: fitness = 0.44301118963922775 (predicted 0.2825119242668152) with 186 streets
+03/11/2024 10:53:12 simulated gen22genome418: fitness = 0.3345603391510762 (predicted 0.3801785042285919) with 199 streets
+03/11/2024 10:56:52 simulated gen22genome372: fitness = 0.4065147574949334 (predicted 0.32768942737579343) with 194 streets
+03/11/2024 10:59:58 simulated gen22genome366: fitness = 0.31799201880296263 (predicted 0.30004113221168516) with 199 streets
+03/11/2024 11:03:14 simulated gen22genome92: fitness = 0.34427261966258715 (predicted 0.2855785046815872) with 188 streets
+03/11/2024 11:06:57 simulated gen22genome407: fitness = 0.40910255068237805 (predicted 0.429410147190094) with 187 streets
+03/11/2024 11:06:57 best fitness 0.2821479790521245 from generation -1
+03/11/2024 11:06:57 starting generation 23
+03/11/2024 11:10:53 simulated gen23genome186: fitness = 0.42289838935500684 (predicted 0.27168026542663576) with 181 streets
+03/11/2024 11:14:03 simulated gen23genome338: fitness = 0.3497557510756336 (predicted 0.2727878782749176) with 191 streets
+03/11/2024 11:17:34 simulated gen23genome38: fitness = 0.43031259584092035 (predicted 0.2776574767827988) with 182 streets
+03/11/2024 11:21:40 simulated gen23genome499: fitness = 0.45754176270043606 (predicted 0.27809809398651125) with 187 streets
+03/11/2024 11:25:53 simulated gen23genome309: fitness = 0.4890959301318786 (predicted 0.2791894936561584) with 190 streets
+03/11/2024 11:29:37 simulated gen23genome51: fitness = 0.4200565738808897 (predicted 0.29765972542762753) with 188 streets
+03/11/2024 11:32:45 simulated gen23genome161: fitness = 0.33875472994725886 (predicted 0.38747234892845156) with 187 streets
+03/11/2024 11:36:12 simulated gen23genome450: fitness = 0.3775599285156066 (predicted 0.2913145251274109) with 182 streets
+03/11/2024 11:39:57 simulated gen23genome60: fitness = 0.41320000273143653 (predicted 0.32086503148078915) with 190 streets
+03/11/2024 11:43:26 simulated gen23genome24: fitness = 0.3912455238206224 (predicted 0.31620534563064573) with 199 streets
+03/11/2024 11:43:26 best fitness 0.2821479790521245 from generation -1
+03/11/2024 11:43:26 starting generation 24
+03/11/2024 11:47:16 simulated gen24genome109: fitness = 0.4045270370620027 (predicted 0.26554694879055024) with 173 streets
+03/11/2024 11:50:55 simulated gen24genome47: fitness = 0.408093641864321 (predicted 0.2698398060798645) with 182 streets
+03/11/2024 11:54:31 simulated gen24genome34: fitness = 0.383193134694511 (predicted 0.2716128823757172) with 181 streets
+03/11/2024 11:58:04 simulated gen24genome235: fitness = 0.3985749410974416 (predicted 0.2749905740022659) with 188 streets
+03/11/2024 12:01:35 simulated gen24genome428: fitness = 0.3839209099819595 (predicted 0.27621851027011873) with 185 streets
+03/11/2024 12:04:42 simulated gen24genome427: fitness = 0.327064826863824 (predicted 0.3017256779670715) with 192 streets
+03/11/2024 12:08:24 simulated gen24genome100: fitness = 0.4040577308483658 (predicted 0.321241132736206) with 192 streets
+03/11/2024 12:11:31 simulated gen24genome427: fitness = 0.327064826863824 (predicted 0.327064826863824) with 192 streets
+03/11/2024 12:14:45 simulated gen24genome127: fitness = 0.3379245771704753 (predicted 0.3686052815914154) with 183 streets
+03/11/2024 12:18:41 simulated gen24genome329: fitness = 0.44827930453955217 (predicted 0.3734383926391602) with 186 streets
+03/11/2024 12:18:41 best fitness 0.2821479790521245 from generation -1
+03/11/2024 12:18:41 starting generation 25
+03/11/2024 12:22:45 simulated gen25genome182: fitness = 0.4030449853140564 (predicted 0.26330526208877564) with 166 streets
+03/11/2024 12:26:19 simulated gen25genome419: fitness = 0.4202035052432362 (predicted 0.2649294095039368) with 183 streets
+03/11/2024 12:30:02 simulated gen25genome331: fitness = 0.43355241132417266 (predicted 0.2676780912876129) with 191 streets
+03/11/2024 12:33:53 simulated gen25genome308: fitness = 0.4134915695780306 (predicted 0.269073610663414) with 171 streets
+03/11/2024 12:37:12 simulated gen25genome192: fitness = 0.37616560482698724 (predicted 0.2694103302955627) with 194 streets
+03/11/2024 12:41:12 simulated gen25genome344: fitness = 0.44582957502621057 (predicted 0.30812308168411257) with 181 streets
+03/11/2024 12:44:53 simulated gen25genome161: fitness = 0.39510887096918956 (predicted 0.3356941549777985) with 178 streets
+03/11/2024 12:48:44 simulated gen25genome167: fitness = 0.44584274155987536 (predicted 0.30365951204299924) with 189 streets
+03/11/2024 12:52:10 simulated gen25genome382: fitness = 0.35897772073433076 (predicted 0.30378873288631436) with 190 streets
+03/11/2024 12:55:18 simulated gen25genome479: fitness = 0.34048653926222305 (predicted 0.29579731667041775) with 189 streets
+03/11/2024 12:55:18 best fitness 0.2821479790521245 from generation -1
+03/11/2024 12:55:18 starting generation 26
+03/11/2024 12:59:06 simulated gen26genome0: fitness = 0.39040719895068937 (predicted 0.2701573328971863) with 183 streets
+03/11/2024 13:02:24 simulated gen26genome331: fitness = 0.36536418720527214 (predicted 0.27189460372924806) with 181 streets
+03/11/2024 13:05:51 simulated gen26genome1: fitness = 0.37755294300336983 (predicted 0.2719369616508484) with 184 streets
+03/11/2024 13:09:48 simulated gen26genome24: fitness = 0.42632139319929113 (predicted 0.2719708678722382) with 181 streets
+03/11/2024 13:13:24 simulated gen26genome464: fitness = 0.39722037579194047 (predicted 0.27219151210784914) with 187 streets
+03/11/2024 13:16:37 simulated gen26genome5: fitness = 0.34066201031543497 (predicted 0.28520988178253176) with 187 streets
+03/11/2024 13:20:06 simulated gen26genome98: fitness = 0.3685347514269071 (predicted 0.28207112216949465) with 184 streets
+03/11/2024 13:23:42 simulated gen26genome326: fitness = 0.40217514659425213 (predicted 0.29197603106498715) with 190 streets
+03/11/2024 13:27:02 simulated gen26genome168: fitness = 0.34357512263622264 (predicted 0.2980683592557907) with 181 streets
+03/11/2024 13:30:19 simulated gen26genome323: fitness = 0.36194664216028516 (predicted 0.41587482166290285) with 182 streets
+03/11/2024 13:30:19 best fitness 0.2821479790521245 from generation -1
+03/11/2024 13:30:19 starting generation 27
+03/11/2024 13:34:35 simulated gen27genome150: fitness = 0.46090034014932885 (predicted 0.268496376991272) with 182 streets
+03/11/2024 13:37:58 simulated gen27genome236: fitness = 0.37183545983510247 (predicted 0.27068493700027463) with 191 streets
+03/11/2024 13:41:36 simulated gen27genome415: fitness = 0.38513041779863055 (predicted 0.2707284429073334) with 179 streets
+03/11/2024 13:45:41 simulated gen27genome423: fitness = 0.42339721019250925 (predicted 0.2720546773672104) with 171 streets
+03/11/2024 13:48:53 simulated gen27genome55: fitness = 0.35889652228654156 (predicted 0.27205751478672024) with 190 streets
+03/11/2024 13:52:50 simulated gen27genome420: fitness = 0.4255836529300864 (predicted 0.2798948712348938) with 182 streets
+03/11/2024 13:56:18 simulated gen27genome456: fitness = 0.3571750472617601 (predicted 0.3163147864341736) with 181 streets
+03/11/2024 13:59:53 simulated gen27genome492: fitness = 0.4087746859136284 (predicted 0.3073492014408111) with 190 streets
+03/11/2024 14:03:50 simulated gen27genome377: fitness = 0.43968052086454606 (predicted 0.2780222930908203) with 179 streets
+03/11/2024 14:07:23 simulated gen27genome122: fitness = 0.38316839966948724 (predicted 0.31733713412284853) with 184 streets
+03/11/2024 14:07:23 best fitness 0.2821479790521245 from generation -1
+03/11/2024 14:07:23 starting generation 28
+03/11/2024 14:11:21 simulated gen28genome100: fitness = 0.42187431559694644 (predicted 0.2633089325428009) with 171 streets
+03/11/2024 14:14:45 simulated gen28genome339: fitness = 0.3551822321473832 (predicted 0.26463125145435334) with 176 streets
+03/11/2024 14:18:30 simulated gen28genome80: fitness = 0.4180201706837025 (predicted 0.2655116140842438) with 175 streets
+03/11/2024 14:21:51 simulated gen28genome57: fitness = 0.3606228946140728 (predicted 0.2667508428096771) with 188 streets
+03/11/2024 14:25:20 simulated gen28genome485: fitness = 0.3587898331887696 (predicted 0.268027373790741) with 184 streets
+03/11/2024 14:29:01 simulated gen28genome39: fitness = 0.41276231805388197 (predicted 0.31728543519973756) with 180 streets
+03/11/2024 14:32:16 simulated gen28genome361: fitness = 0.3710161476153097 (predicted 0.34181538605690004) with 179 streets
+03/11/2024 14:35:18 simulated gen28genome143: fitness = 0.3816566012268511 (predicted 0.2859246349334717) with 185 streets
+03/11/2024 14:38:30 simulated gen28genome449: fitness = 0.3963711356812485 (predicted 0.30295307374000546) with 191 streets
+03/11/2024 14:41:38 simulated gen28genome20: fitness = 0.3954716930913431 (predicted 0.2862884955406189) with 183 streets
+03/11/2024 14:41:38 best fitness 0.2821479790521245 from generation -1
+03/11/2024 14:41:38 starting generation 29
+03/11/2024 14:45:12 simulated gen29genome111: fitness = 0.44588600629744557 (predicted 0.26186676502227785) with 180 streets
+03/11/2024 14:48:11 simulated gen29genome377: fitness = 0.38478207405880993 (predicted 0.2653542294502258) with 189 streets
+03/11/2024 14:51:14 simulated gen29genome399: fitness = 0.36407535520453954 (predicted 0.2657612729072571) with 180 streets
+03/11/2024 14:54:27 simulated gen29genome328: fitness = 0.4088467115167543 (predicted 0.2658470175266266) with 171 streets
+03/11/2024 14:57:32 simulated gen29genome15: fitness = 0.3634860415273334 (predicted 0.26596981263160707) with 181 streets
+03/11/2024 15:00:38 simulated gen29genome21: fitness = 0.4019639775410887 (predicted 0.3042041575908661) with 185 streets
+03/11/2024 15:03:59 simulated gen29genome7: fitness = 0.41683166857455006 (predicted 0.28487737727165224) with 187 streets
+03/11/2024 15:06:49 simulated gen29genome245: fitness = 0.3563981680051535 (predicted 0.2942975208759308) with 186 streets
+03/11/2024 15:10:01 simulated gen29genome53: fitness = 0.40855773597753764 (predicted 0.29512815153598787) with 181 streets
+03/11/2024 15:13:10 simulated gen29genome370: fitness = 0.3973308111261148 (predicted 0.2949547873735428) with 183 streets
+03/11/2024 15:13:10 best fitness 0.2821479790521245 from generation -1
+03/11/2024 15:13:10 starting generation 30
+03/11/2024 15:14:10 new GNN model trained, mae = 0.08552636, r2 = 0.47971756417267297
+03/11/2024 15:17:29 simulated gen30genome320: fitness = 0.3790456129392521 (predicted 0.3157084012031555) with 165 streets
+03/11/2024 15:20:53 simulated gen30genome85: fitness = 0.43249743870254054 (predicted 0.31744009160995484) with 174 streets
+03/11/2024 15:24:20 simulated gen30genome215: fitness = 0.41885087839856694 (predicted 0.318104266166687) with 174 streets
+03/11/2024 15:27:36 simulated gen30genome243: fitness = 0.3980663305638441 (predicted 0.3182461848258972) with 174 streets
+03/11/2024 15:30:45 simulated gen30genome28: fitness = 0.3547650881811181 (predicted 0.31962049317359925) with 172 streets
+03/11/2024 15:34:03 simulated gen30genome114: fitness = 0.4041413292069804 (predicted 0.37071105337142946) with 176 streets
+03/11/2024 15:36:56 simulated gen30genome405: fitness = 0.3400979428439583 (predicted 0.3390427906513214) with 177 streets
+03/11/2024 15:40:20 simulated gen30genome189: fitness = 0.4266527707867786 (predicted 0.33327294921875) with 166 streets
+03/11/2024 15:43:22 simulated gen30genome165: fitness = 0.3731458469370289 (predicted 0.3314405853748322) with 187 streets
+03/11/2024 15:46:16 simulated gen30genome242: fitness = 0.35843693764893836 (predicted 0.35439587974548337) with 189 streets
+03/11/2024 15:46:16 best fitness 0.2821479790521245 from generation -1
+03/11/2024 15:46:16 starting generation 31
+03/11/2024 15:49:42 simulated gen31genome432: fitness = 0.3851897138778302 (predicted 0.3173124272823334) with 177 streets
+03/11/2024 15:52:54 simulated gen31genome421: fitness = 0.3660538803588313 (predicted 0.3185806088447571) with 168 streets
+03/11/2024 15:55:54 simulated gen31genome272: fitness = 0.34639150534870594 (predicted 0.31885114014148713) with 175 streets
+03/11/2024 15:58:54 simulated gen31genome491: fitness = 0.3478336191131852 (predicted 0.31969974637031556) with 175 streets
+03/11/2024 16:01:41 simulated gen31genome442: fitness = 0.3329562519312449 (predicted 0.3202229986190796) with 176 streets
+03/11/2024 16:05:21 simulated gen31genome326: fitness = 0.472016080612529 (predicted 0.3460161392688751) with 188 streets
+03/11/2024 16:09:12 simulated gen31genome369: fitness = 0.4978431085158552 (predicted 0.3756080050468445) with 177 streets
+03/11/2024 16:12:45 simulated gen31genome131: fitness = 0.4508823971655534 (predicted 0.3476037976741791) with 181 streets
+03/11/2024 16:16:37 simulated gen31genome241: fitness = 0.5082477878031667 (predicted 0.37824081945419313) with 183 streets
+03/11/2024 16:19:40 simulated gen31genome84: fitness = 0.37265527292433037 (predicted 0.34103466272354127) with 175 streets
+03/11/2024 16:19:40 best fitness 0.2821479790521245 from generation -1
+03/11/2024 16:19:40 starting generation 32
+03/11/2024 16:23:09 simulated gen32genome323: fitness = 0.4345610077852355 (predicted 0.31202748119831086) with 175 streets
+03/11/2024 16:26:42 simulated gen32genome370: fitness = 0.4280977472663736 (predicted 0.3153796172142029) with 160 streets
+03/11/2024 16:30:35 simulated gen32genome484: fitness = 0.5139065421964419 (predicted 0.31813195323944093) with 181 streets
+03/11/2024 16:34:03 simulated gen32genome126: fitness = 0.44215347196670673 (predicted 0.3183144612312317) with 167 streets
+03/11/2024 16:37:15 simulated gen32genome310: fitness = 0.39665402950845946 (predicted 0.3188604472875595) with 178 streets
+03/11/2024 16:40:08 simulated gen32genome378: fitness = 0.3338998881086878 (predicted 0.3534467806816101) with 174 streets
+03/11/2024 16:44:17 simulated gen32genome151: fitness = 0.5330776242591786 (predicted 0.32375480008125307) with 182 streets
+03/11/2024 16:47:36 simulated gen32genome369: fitness = 0.3943118007144338 (predicted 0.36192884063720704) with 171 streets
+03/11/2024 16:51:07 simulated gen32genome205: fitness = 0.44892216567679155 (predicted 0.36081604766845704) with 173 streets
+03/11/2024 16:54:47 simulated gen32genome89: fitness = 0.44317115104977073 (predicted 0.3599564599990845) with 180 streets
+03/11/2024 16:54:47 best fitness 0.2821479790521245 from generation -1
+03/11/2024 16:54:47 starting generation 33
+03/11/2024 16:58:59 simulated gen33genome244: fitness = 0.507830106153226 (predicted 0.2956210994720459) with 165 streets
+03/11/2024 17:02:34 simulated gen33genome486: fitness = 0.43432133800582995 (predicted 0.312558446764946) with 164 streets
+03/11/2024 17:05:44 simulated gen33genome149: fitness = 0.38184138579605126 (predicted 0.3146720221042633) with 174 streets
+03/11/2024 17:08:46 simulated gen33genome384: fitness = 0.36964052071184295 (predicted 0.31478659915924073) with 173 streets
+03/11/2024 17:12:28 simulated gen33genome76: fitness = 0.4404635705874152 (predicted 0.3150806200504303) with 170 streets
+03/11/2024 17:15:54 simulated gen33genome158: fitness = 0.43032626382725164 (predicted 0.3390611867904663) with 173 streets
+03/11/2024 17:19:38 simulated gen33genome277: fitness = 0.44164721686744524 (predicted 0.32878587436676027) with 177 streets
+03/11/2024 17:22:41 simulated gen33genome309: fitness = 0.36143245174107214 (predicted 0.410979606628418) with 177 streets
+03/11/2024 17:25:48 simulated gen33genome22: fitness = 0.3819570347840777 (predicted 0.39378492641448976) with 173 streets
+03/11/2024 17:29:51 simulated gen33genome478: fitness = 0.505983186975146 (predicted 0.3427832293510437) with 180 streets
+03/11/2024 17:29:51 best fitness 0.2821479790521245 from generation -1
+03/11/2024 17:29:51 starting generation 34
+03/11/2024 17:34:12 simulated gen34genome441: fitness = 0.535530335883255 (predicted 0.3073268895149231) with 163 streets
+03/11/2024 17:37:40 simulated gen34genome367: fitness = 0.4245283495792814 (predicted 0.3083609163761139) with 175 streets
+03/11/2024 17:41:24 simulated gen34genome37: fitness = 0.4948752243565723 (predicted 0.3103582910299301) with 171 streets
+03/11/2024 17:45:13 simulated gen34genome404: fitness = 0.49022675137789595 (predicted 0.31111788380146027) with 168 streets
+03/11/2024 17:48:15 simulated gen34genome221: fitness = 0.35587881008291594 (predicted 0.31340525341033937) with 177 streets
+03/11/2024 17:51:52 simulated gen34genome385: fitness = 0.4698379612332295 (predicted 0.3441737880706787) with 174 streets
+03/11/2024 17:55:03 simulated gen34genome261: fitness = 0.38097397829148955 (predicted 0.34811869645118715) with 179 streets
+03/11/2024 17:59:16 simulated gen34genome478: fitness = 0.5278164437925839 (predicted 0.33531314849853516) with 170 streets
+03/11/2024 18:02:19 simulated gen34genome241: fitness = 0.36153483539227266 (predicted 0.3458200263977051) with 180 streets
+03/11/2024 18:05:27 simulated gen34genome8: fitness = 0.3523723083434095 (predicted 0.34422684979438783) with 182 streets
+03/11/2024 18:05:27 best fitness 0.2821479790521245 from generation -1
+03/11/2024 18:05:27 starting generation 35
+03/11/2024 18:09:15 simulated gen35genome235: fitness = 0.4653789766233461 (predicted 0.30456099224090577) with 172 streets
+03/11/2024 18:12:19 simulated gen35genome353: fitness = 0.3518730351069576 (predicted 0.3061611804962158) with 166 streets
+03/11/2024 18:15:50 simulated gen35genome386: fitness = 0.4157482173163292 (predicted 0.3062296953201294) with 159 streets
+03/11/2024 18:20:07 simulated gen35genome11: fitness = 0.5281675994679037 (predicted 0.3069879287481308) with 165 streets
+03/11/2024 18:23:13 simulated gen35genome435: fitness = 0.36467714086637104 (predicted 0.3071190617084503) with 171 streets
+03/11/2024 18:26:28 simulated gen35genome302: fitness = 0.3721766270526594 (predicted 0.34992853927612305) with 168 streets
+03/11/2024 18:29:32 simulated gen35genome96: fitness = 0.3610394041029735 (predicted 0.3393693692684174) with 182 streets
+03/11/2024 18:33:38 simulated gen35genome480: fitness = 0.5442512366165306 (predicted 0.33357239079475404) with 172 streets
+03/11/2024 18:37:03 simulated gen35genome410: fitness = 0.40727224394371214 (predicted 0.34780493354797365) with 181 streets
+03/11/2024 18:40:15 simulated gen35genome108: fitness = 0.3823466725408171 (predicted 0.37036885499954225) with 180 streets
+03/11/2024 18:40:15 best fitness 0.2821479790521245 from generation -1
+03/11/2024 18:40:15 starting generation 36
+03/11/2024 18:43:14 simulated gen36genome0: fitness = 0.32238387770618865 (predicted 0.30776120352745057) with 168 streets
+03/11/2024 18:46:32 simulated gen36genome1: fitness = 0.39271923408335174 (predicted 0.30827664279937744) with 164 streets
+03/11/2024 18:50:15 simulated gen36genome216: fitness = 0.4512380491568317 (predicted 0.30931682789325715) with 174 streets
+03/11/2024 18:54:13 simulated gen36genome2: fitness = 0.5027376909564945 (predicted 0.31045368015766145) with 175 streets
+03/11/2024 18:57:51 simulated gen36genome3: fitness = 0.4664638396549835 (predicted 0.3107501645088196) with 177 streets
+03/11/2024 19:00:59 simulated gen36genome148: fitness = 0.3877156166592329 (predicted 0.32792287492752076) with 169 streets
+03/11/2024 19:04:16 simulated gen36genome119: fitness = 0.3789407465884699 (predicted 0.33029756259918214) with 172 streets
+03/11/2024 19:08:16 simulated gen36genome430: fitness = 0.45245096259821743 (predicted 0.3319254324436188) with 161 streets
+03/11/2024 19:11:13 simulated gen36genome464: fitness = 0.34626829615566757 (predicted 0.35929879927635194) with 179 streets
+03/11/2024 19:15:05 simulated gen36genome413: fitness = 0.4781858043656251 (predicted 0.3347282271385193) with 173 streets
+03/11/2024 19:15:05 best fitness 0.2821479790521245 from generation -1
+03/11/2024 19:15:05 starting generation 37
+03/11/2024 19:18:36 simulated gen37genome352: fitness = 0.4064830194057448 (predicted 0.29680731654167175) with 160 streets
+03/11/2024 19:22:44 simulated gen37genome367: fitness = 0.5131567454461737 (predicted 0.2972535934448242) with 159 streets
+03/11/2024 19:26:52 simulated gen37genome420: fitness = 0.5164740792027178 (predicted 0.2988217625617981) with 166 streets
+03/11/2024 19:30:10 simulated gen37genome281: fitness = 0.38866650561229 (predicted 0.3042123808860779) with 164 streets
+03/11/2024 19:33:35 simulated gen37genome374: fitness = 0.40794749087767684 (predicted 0.3047652932405472) with 169 streets
+03/11/2024 19:37:03 simulated gen37genome188: fitness = 0.42090174707290096 (predicted 0.33992518520355225) with 166 streets
+03/11/2024 19:40:31 simulated gen37genome278: fitness = 0.4153904785879188 (predicted 0.3306615810394287) with 173 streets
+03/11/2024 19:43:52 simulated gen37genome394: fitness = 0.4034088609869701 (predicted 0.3540221347808838) with 164 streets
+03/11/2024 19:47:24 simulated gen37genome336: fitness = 0.38256258975169655 (predicted 0.33128067684173584) with 167 streets
+03/11/2024 19:51:24 simulated gen37genome356: fitness = 0.4921915422174935 (predicted 0.3236722469329834) with 175 streets
+03/11/2024 19:51:24 best fitness 0.2821479790521245 from generation -1
+03/11/2024 19:51:24 starting generation 38
+03/11/2024 19:55:10 simulated gen38genome42: fitness = 0.43466091916964333 (predicted 0.29752414298057556) with 157 streets
+03/11/2024 19:59:02 simulated gen38genome199: fitness = 0.4726679872225592 (predicted 0.2998755421638489) with 159 streets
+03/11/2024 20:02:01 simulated gen38genome221: fitness = 0.37744558021035807 (predicted 0.3032202751636505) with 172 streets
+03/11/2024 20:05:46 simulated gen38genome0: fitness = 0.4521445265345002 (predicted 0.30503472113609315) with 169 streets
+03/11/2024 20:09:20 simulated gen38genome1: fitness = 0.4580291570718526 (predicted 0.3052923324108124) with 169 streets
+03/11/2024 20:12:29 simulated gen38genome200: fitness = 0.36350437075542574 (predicted 0.3231975758075714) with 165 streets
+03/11/2024 20:15:32 simulated gen38genome405: fitness = 0.38277589897421865 (predicted 0.31075819754600525) with 169 streets
+03/11/2024 20:18:39 simulated gen38genome478: fitness = 0.37829029879346887 (predicted 0.3617520790100098) with 173 streets
+03/11/2024 20:22:30 simulated gen38genome163: fitness = 0.4935221434483242 (predicted 0.33615669107437135) with 176 streets
+03/11/2024 20:25:55 simulated gen38genome258: fitness = 0.4384001910737921 (predicted 0.3589993929862976) with 185 streets
+03/11/2024 20:25:55 best fitness 0.2821479790521245 from generation -1
+03/11/2024 20:25:55 starting generation 39
+03/11/2024 20:29:47 simulated gen39genome253: fitness = 0.42457668478726224 (predicted 0.3005057705640793) with 167 streets
+03/11/2024 20:33:05 simulated gen39genome37: fitness = 0.3907810057538417 (predicted 0.30077816104888916) with 161 streets
+03/11/2024 20:36:51 simulated gen39genome260: fitness = 0.4467377097150775 (predicted 0.30109877920150757) with 166 streets
+03/11/2024 20:40:18 simulated gen39genome210: fitness = 0.4297222688861366 (predicted 0.30341408705711365) with 161 streets
+03/11/2024 20:43:31 simulated gen39genome326: fitness = 0.3815182491251799 (predicted 0.30400274658203125) with 159 streets
+03/11/2024 20:47:49 simulated gen39genome366: fitness = 0.5189360911800185 (predicted 0.3527867350578308) with 166 streets
+03/11/2024 20:51:05 simulated gen39genome436: fitness = 0.41217118817797854 (predicted 0.3281278383731842) with 170 streets
+03/11/2024 20:54:05 simulated gen39genome233: fitness = 0.3728685814579406 (predicted 0.3359528729915619) with 176 streets
+03/11/2024 20:57:27 simulated gen39genome25: fitness = 0.39381881771049104 (predicted 0.32495140385627747) with 162 streets
+03/11/2024 21:01:31 simulated gen39genome246: fitness = 0.5113258944518476 (predicted 0.3283394775390625) with 171 streets
+03/11/2024 21:01:31 best fitness 0.2821479790521245 from generation -1
+03/11/2024 21:01:31 starting generation 40
+03/11/2024 21:04:16 new GNN model trained, mae = 0.08102557, r2 = 0.5760826378232153
+03/11/2024 21:08:15 simulated gen40genome3: fitness = 0.4919764407621523 (predicted 0.2581023110151291) with 167 streets
+03/11/2024 21:12:06 simulated gen40genome406: fitness = 0.4731486029004313 (predicted 0.2627655562162399) with 159 streets
+03/11/2024 21:15:16 simulated gen40genome0: fitness = 0.3852460230111724 (predicted 0.27140039241313935) with 166 streets
+03/11/2024 21:19:20 simulated gen40genome182: fitness = 0.5004294656514249 (predicted 0.2739930671453476) with 170 streets
+03/11/2024 21:23:16 simulated gen40genome175: fitness = 0.4702283954086715 (predicted 0.27697811448574067) with 169 streets
+03/11/2024 21:26:19 simulated gen40genome486: fitness = 0.3380488761967672 (predicted 0.3699208359718323) with 173 streets
+03/11/2024 21:29:45 simulated gen40genome493: fitness = 0.45028970047794004 (predicted 0.3396033248901367) with 171 streets
+03/11/2024 21:32:52 simulated gen40genome495: fitness = 0.36306815277982085 (predicted 0.3238594969511032) with 174 streets
+03/11/2024 21:36:02 simulated gen40genome32: fitness = 0.3696489656785572 (predicted 0.30633739149570466) with 171 streets
+03/11/2024 21:39:11 simulated gen40genome169: fitness = 0.36398743090781976 (predicted 0.31962373077869416) with 170 streets
+03/11/2024 21:39:11 best fitness 0.2821479790521245 from generation -1
+03/11/2024 21:39:11 starting generation 41
+03/11/2024 21:43:53 simulated gen41genome452: fitness = 0.5603951112882706 (predicted 0.2633713833093643) with 171 streets
+03/11/2024 21:47:36 simulated gen41genome286: fitness = 0.46639420666057674 (predicted 0.2727879458665848) with 165 streets
+03/11/2024 21:51:26 simulated gen41genome383: fitness = 0.4508721744546704 (predicted 0.2734017165899277) with 169 streets
+03/11/2024 21:54:48 simulated gen41genome257: fitness = 0.3887672093325993 (predicted 0.275753524184227) with 168 streets
+03/11/2024 21:58:19 simulated gen41genome20: fitness = 0.44765527432606944 (predicted 0.27995898139476777) with 172 streets
+03/11/2024 22:01:51 simulated gen41genome203: fitness = 0.4237916261369816 (predicted 0.3235547647476196) with 161 streets
+03/11/2024 22:05:47 simulated gen41genome53: fitness = 0.47516180990742257 (predicted 0.33928455924987794) with 171 streets
+03/11/2024 22:09:34 simulated gen41genome277: fitness = 0.45197981952149585 (predicted 0.4087406644821167) with 176 streets
+03/11/2024 22:12:43 simulated gen41genome146: fitness = 0.38154641267471284 (predicted 0.3395202989578247) with 162 streets
+03/11/2024 22:15:47 simulated gen41genome318: fitness = 0.3643800697527797 (predicted 0.3151995841264725) with 166 streets
+03/11/2024 22:15:47 best fitness 0.2821479790521245 from generation -1
+03/11/2024 22:15:47 starting generation 42
+03/11/2024 22:19:30 simulated gen42genome315: fitness = 0.42735219415393555 (predicted 0.26965883004665375) with 168 streets
+03/11/2024 22:22:41 simulated gen42genome273: fitness = 0.38805795383314756 (predicted 0.2734013034105301) with 167 streets
+03/11/2024 22:26:21 simulated gen42genome489: fitness = 0.4571817488876702 (predicted 0.2767849487066269) with 170 streets
+03/11/2024 22:29:57 simulated gen42genome175: fitness = 0.453545655972757 (predicted 0.2769161432981491) with 175 streets
+03/11/2024 22:33:15 simulated gen42genome480: fitness = 0.4498637087974103 (predicted 0.2784232338666916) with 174 streets
+03/11/2024 22:36:37 simulated gen42genome462: fitness = 0.3849803509876623 (predicted 0.3069628487825394) with 173 streets
+03/11/2024 22:40:20 simulated gen42genome263: fitness = 0.4513963068665953 (predicted 0.3282984986305237) with 164 streets
+03/11/2024 22:43:08 simulated gen42genome334: fitness = 0.3715775934863966 (predicted 0.2948889390230179) with 161 streets
+03/11/2024 22:46:48 simulated gen42genome166: fitness = 0.4571246899767574 (predicted 0.3071654313802719) with 165 streets
+03/11/2024 22:50:07 simulated gen42genome121: fitness = 0.3929511594144693 (predicted 0.3301735382080078) with 173 streets
+03/11/2024 22:50:07 best fitness 0.2821479790521245 from generation -1
+03/11/2024 22:50:07 starting generation 43
+03/11/2024 22:53:28 simulated gen43genome77: fitness = 0.36394260533547174 (predicted 0.2674465650320053) with 165 streets
+03/11/2024 22:56:48 simulated gen43genome62: fitness = 0.4213821846565701 (predicted 0.2682186585664749) with 170 streets
+03/11/2024 23:00:40 simulated gen43genome368: fitness = 0.45830799206124345 (predicted 0.27114419877529145) with 165 streets
+03/11/2024 23:04:20 simulated gen43genome340: fitness = 0.45535783907393845 (predicted 0.2712147754430771) with 170 streets
+03/11/2024 23:07:58 simulated gen43genome390: fitness = 0.4547356233176765 (predicted 0.27164216578006745) with 165 streets
+03/11/2024 23:11:16 simulated gen43genome489: fitness = 0.4118491870381666 (predicted 0.4734912829399109) with 158 streets
+03/11/2024 23:14:31 simulated gen43genome386: fitness = 0.34747118411232486 (predicted 0.3164882297515869) with 162 streets
+03/11/2024 23:18:53 simulated gen43genome367: fitness = 0.5231179797881704 (predicted 0.35332900047302246) with 160 streets
+03/11/2024 23:22:23 simulated gen43genome486: fitness = 0.4187945468808206 (predicted 0.34249773931503297) with 172 streets
+03/11/2024 23:26:16 simulated gen43genome179: fitness = 0.4746493142253672 (predicted 0.29742637383937837) with 173 streets
+03/11/2024 23:26:16 best fitness 0.2821479790521245 from generation -1
+03/11/2024 23:26:16 starting generation 44
+03/11/2024 23:30:15 simulated gen44genome356: fitness = 0.439953288499043 (predicted 0.2680586105585098) with 160 streets
+03/11/2024 23:34:29 simulated gen44genome280: fitness = 0.5228962610309058 (predicted 0.2725614062547684) with 171 streets
+03/11/2024 23:38:04 simulated gen44genome0: fitness = 0.4267309725360403 (predicted 0.27309476959705353) with 168 streets
+03/11/2024 23:41:39 simulated gen44genome229: fitness = 0.4267309725360403 (predicted 0.27309476959705353) with 168 streets
+03/11/2024 23:45:08 simulated gen44genome131: fitness = 0.4522627896450449 (predicted 0.2734737149477005) with 171 streets
+03/11/2024 23:48:31 simulated gen44genome344: fitness = 0.39252888848050144 (predicted 0.3493027629852295) with 169 streets
+03/11/2024 23:52:17 simulated gen44genome170: fitness = 0.4291633430762625 (predicted 0.3288678970336914) with 159 streets
+03/11/2024 23:56:09 simulated gen44genome222: fitness = 0.43484396391244967 (predicted 0.3207823643684387) with 151 streets
+03/11/2024 23:59:37 simulated gen44genome134: fitness = 0.4330217626408364 (predicted 0.3684044761657715) with 167 streets
+04/11/2024 00:03:46 simulated gen44genome149: fitness = 0.5191733506677518 (predicted 0.294577028632164) with 168 streets
+04/11/2024 00:03:46 best fitness 0.2821479790521245 from generation -1
+04/11/2024 00:03:46 starting generation 45
+04/11/2024 00:07:32 simulated gen45genome168: fitness = 0.4514995672634094 (predicted 0.2534700804948807) with 165 streets
+04/11/2024 00:11:11 simulated gen45genome350: fitness = 0.44858784208678876 (predicted 0.2548669024705887) with 164 streets
+04/11/2024 00:14:26 simulated gen45genome259: fitness = 0.37975621755154915 (predicted 0.26134151661396027) with 164 streets
+04/11/2024 00:18:10 simulated gen45genome312: fitness = 0.44982303911720867 (predicted 0.2641163092851639) with 170 streets
+04/11/2024 00:21:20 simulated gen45genome241: fitness = 0.3757819989130316 (predicted 0.26985719430446625) with 168 streets
+04/11/2024 00:25:37 simulated gen45genome496: fitness = 0.5733157057240477 (predicted 0.32194225120544434) with 168 streets
+04/11/2024 00:29:33 simulated gen45genome306: fitness = 0.4536481903601517 (predicted 0.3407631154060364) with 162 streets
+04/11/2024 00:32:58 simulated gen45genome68: fitness = 0.4113212857548618 (predicted 0.3720603141784668) with 166 streets
+04/11/2024 00:36:42 simulated gen45genome167: fitness = 0.4527707069466942 (predicted 0.275913472533226) with 161 streets
+04/11/2024 00:40:04 simulated gen45genome33: fitness = 0.4077347832264326 (predicted 0.29727234184741974) with 165 streets
+04/11/2024 00:40:04 best fitness 0.2821479790521245 from generation -1
+04/11/2024 00:40:04 starting generation 46
+04/11/2024 00:43:37 simulated gen46genome206: fitness = 0.4355687214263463 (predicted 0.2578729211091995) with 153 streets
+04/11/2024 00:47:13 simulated gen46genome410: fitness = 0.43333179769095076 (predicted 0.26318347895145416) with 164 streets
+04/11/2024 00:51:45 simulated gen46genome467: fitness = 0.5589886579545087 (predicted 0.2653187814950943) with 166 streets
+04/11/2024 00:55:41 simulated gen46genome258: fitness = 0.48147544513575413 (predicted 0.26638562738895416) with 160 streets
+04/11/2024 00:59:49 simulated gen46genome115: fitness = 0.47472523938006694 (predicted 0.26721396124362945) with 156 streets
+04/11/2024 01:03:28 simulated gen46genome435: fitness = 0.43627388618501944 (predicted 0.2801005538702011) with 159 streets
+04/11/2024 01:07:06 simulated gen46genome159: fitness = 0.45503049208099644 (predicted 0.28276080477237703) with 178 streets
+04/11/2024 01:10:57 simulated gen46genome247: fitness = 0.4671918323722278 (predicted 0.33531962299346924) with 159 streets
+04/11/2024 01:14:21 simulated gen46genome88: fitness = 0.428667170256113 (predicted 0.3291585807800293) with 163 streets
+04/11/2024 01:18:11 simulated gen46genome446: fitness = 0.4820530194578807 (predicted 0.276969624876976) with 167 streets
+04/11/2024 01:18:11 best fitness 0.2821479790521245 from generation -1
+04/11/2024 01:18:11 starting generation 47
+04/11/2024 01:22:04 simulated gen47genome192: fitness = 0.4817415920115016 (predicted 0.25875527107715607) with 164 streets
+04/11/2024 01:27:08 simulated gen47genome391: fitness = 0.6218101632978081 (predicted 0.2605726424455643) with 166 streets
+04/11/2024 01:31:23 simulated gen47genome421: fitness = 0.5185050370952837 (predicted 0.26198705184459686) with 163 streets
+04/11/2024 01:34:52 simulated gen47genome112: fitness = 0.4121203582129694 (predicted 0.26288074219226837) with 159 streets
+04/11/2024 01:38:56 simulated gen47genome52: fitness = 0.5071717996675408 (predicted 0.264830708861351) with 166 streets
+04/11/2024 01:42:30 simulated gen47genome384: fitness = 0.45508480375181914 (predicted 0.318886013507843) with 158 streets
+04/11/2024 01:46:11 simulated gen47genome37: fitness = 0.4621417674239588 (predicted 0.2943447824716568) with 159 streets
+04/11/2024 01:49:39 simulated gen47genome327: fitness = 0.4012009463624438 (predicted 0.2852642146348953) with 156 streets
+04/11/2024 01:54:21 simulated gen47genome23: fitness = 0.575972012347596 (predicted 0.34839855909347534) with 155 streets
+04/11/2024 01:58:43 simulated gen47genome221: fitness = 0.5222017274302262 (predicted 0.30966181004047394) with 164 streets
+04/11/2024 01:58:43 best fitness 0.2821479790521245 from generation -1
+04/11/2024 01:58:43 starting generation 48
+04/11/2024 02:03:30 simulated gen48genome91: fitness = 0.5829897796210803 (predicted 0.25380353796482086) with 158 streets
+04/11/2024 02:08:16 simulated gen48genome244: fitness = 0.6117933001026175 (predicted 0.2548491483926773) with 160 streets
+04/11/2024 02:12:07 simulated gen48genome184: fitness = 0.5022393466276762 (predicted 0.2578417879343033) with 170 streets
+04/11/2024 02:16:26 simulated gen48genome489: fitness = 0.5508061693442421 (predicted 0.25798618829250336) with 166 streets
+04/11/2024 02:20:16 simulated gen48genome215: fitness = 0.44487997514542055 (predicted 0.2593608800172806) with 166 streets
+04/11/2024 02:24:24 simulated gen48genome303: fitness = 0.5349449579994575 (predicted 0.3396426029205322) with 157 streets
+04/11/2024 02:28:28 simulated gen48genome292: fitness = 0.4763797652735584 (predicted 0.2835311588048935) with 159 streets
+04/11/2024 02:31:49 simulated gen48genome200: fitness = 0.3936869704319158 (predicted 0.3383727307319641) with 162 streets
+04/11/2024 02:35:22 simulated gen48genome374: fitness = 0.43704926223269003 (predicted 0.29981613194942475) with 166 streets
+04/11/2024 02:39:23 simulated gen48genome58: fitness = 0.5196574718981875 (predicted 0.3904988660812378) with 164 streets
+04/11/2024 02:39:23 best fitness 0.2821479790521245 from generation -1
+04/11/2024 02:39:23 starting generation 49
+04/11/2024 02:43:56 simulated gen49genome373: fitness = 0.5809796254198321 (predicted 0.2505605481863022) with 168 streets
+04/11/2024 02:48:08 simulated gen49genome242: fitness = 0.5471243525074654 (predicted 0.25146921622753143) with 163 streets
+04/11/2024 02:52:12 simulated gen49genome6: fitness = 0.5182658790849428 (predicted 0.2520565901994705) with 163 streets
+04/11/2024 02:56:11 simulated gen49genome31: fitness = 0.5231265432181222 (predicted 0.25529817593097687) with 162 streets
+04/11/2024 03:00:39 simulated gen49genome458: fitness = 0.5542968776854961 (predicted 0.25612869012355804) with 163 streets
+04/11/2024 03:04:14 simulated gen49genome223: fitness = 0.4890773964233098 (predicted 0.3120417686700821) with 169 streets
+04/11/2024 03:07:44 simulated gen49genome180: fitness = 0.41553293750079934 (predicted 0.3016421283483505) with 162 streets
+04/11/2024 03:11:48 simulated gen49genome296: fitness = 0.5065419351139515 (predicted 0.3004491752386093) with 160 streets
+04/11/2024 03:15:39 simulated gen49genome325: fitness = 0.46450902605894123 (predicted 0.29499072206020355) with 157 streets
+04/11/2024 03:18:52 simulated gen49genome109: fitness = 0.3769308177779339 (predicted 0.29102657091617584) with 162 streets
+04/11/2024 03:18:52 best fitness 0.2821479790521245 from generation -1
+04/11/2024 03:18:52 starting generation 50
+04/11/2024 03:20:58 new GNN model trained, mae = 0.08828575, r2 = 0.5690759091717272
+04/11/2024 03:25:21 simulated gen50genome264: fitness = 0.5602115896863352 (predicted 0.28743612933158874) with 158 streets
+04/11/2024 03:29:11 simulated gen50genome377: fitness = 0.4794256422701885 (predicted 0.2878577996492386) with 152 streets
+04/11/2024 03:32:49 simulated gen50genome9: fitness = 0.4383504498078171 (predicted 0.2907002862691879) with 159 streets
+04/11/2024 03:36:19 simulated gen50genome312: fitness = 0.41852353540011417 (predicted 0.2927997189760208) with 155 streets
+04/11/2024 03:40:12 simulated gen50genome208: fitness = 0.4752578215672721 (predicted 0.29349680411815643) with 158 streets
+04/11/2024 03:44:14 simulated gen50genome375: fitness = 0.5135836428691367 (predicted 0.35266847944259644) with 166 streets
+04/11/2024 03:48:18 simulated gen50genome349: fitness = 0.48782810009669964 (predicted 0.3735438175201416) with 157 streets
+04/11/2024 03:51:58 simulated gen50genome411: fitness = 0.44059309070557795 (predicted 0.31503056836128235) with 162 streets
+04/11/2024 03:55:37 simulated gen50genome431: fitness = 0.42642762619090474 (predicted 0.29766624653339385) with 154 streets
+04/11/2024 03:58:54 simulated gen50genome267: fitness = 0.3868906735313195 (predicted 0.3719104254245758) with 165 streets
+04/11/2024 03:58:54 best fitness 0.2821479790521245 from generation -1
+04/11/2024 03:58:54 starting generation 51
+04/11/2024 04:03:27 simulated gen51genome433: fitness = 0.5359967462775043 (predicted 0.2847074848413467) with 145 streets
+04/11/2024 04:06:34 simulated gen51genome333: fitness = 0.3647785776574366 (predicted 0.28697252917289734) with 163 streets
+04/11/2024 04:10:22 simulated gen51genome180: fitness = 0.49121591367285466 (predicted 0.29058136212825775) with 158 streets
+04/11/2024 04:14:12 simulated gen51genome468: fitness = 0.4880296207907874 (predicted 0.2908791083097458) with 155 streets
+04/11/2024 04:17:47 simulated gen51genome496: fitness = 0.4399863674543387 (predicted 0.291475958108902) with 163 streets
+04/11/2024 04:21:23 simulated gen51genome465: fitness = 0.4478869282604147 (predicted 0.33815020966529846) with 163 streets
+04/11/2024 04:24:59 simulated gen51genome258: fitness = 0.45306103964506256 (predicted 0.3390733196735382) with 164 streets
+04/11/2024 04:29:38 simulated gen51genome330: fitness = 0.5838435176879389 (predicted 0.34515395998954773) with 165 streets
+04/11/2024 04:33:03 simulated gen51genome107: fitness = 0.40841338336944416 (predicted 0.3207652747631073) with 150 streets
+04/11/2024 04:36:50 simulated gen51genome307: fitness = 0.4942391045095892 (predicted 0.3688173575401306) with 167 streets
+04/11/2024 04:36:50 best fitness 0.2821479790521245 from generation -1
+04/11/2024 04:36:50 starting generation 52
+04/11/2024 04:40:43 simulated gen52genome217: fitness = 0.4614292372587467 (predicted 0.27933370757102965) with 153 streets
+04/11/2024 04:44:34 simulated gen52genome115: fitness = 0.461028960218624 (predicted 0.2835810729265213) with 154 streets
+04/11/2024 04:48:36 simulated gen52genome360: fitness = 0.4797723760030688 (predicted 0.28693685913085937) with 154 streets
+04/11/2024 04:51:52 simulated gen52genome103: fitness = 0.36983303952540464 (predicted 0.2877508466243744) with 163 streets
+04/11/2024 04:55:53 simulated gen52genome182: fitness = 0.5023820237338823 (predicted 0.28855933678150175) with 142 streets
+04/11/2024 05:00:30 simulated gen52genome429: fitness = 0.5718251293881943 (predicted 0.3122194080352783) with 153 streets
+04/11/2024 05:03:58 simulated gen52genome43: fitness = 0.4381356740362718 (predicted 0.3378265314102173) with 168 streets
+04/11/2024 05:07:56 simulated gen52genome91: fitness = 0.4724649871219151 (predicted 0.3012407032251358) with 156 streets
+04/11/2024 05:11:36 simulated gen52genome410: fitness = 0.4259655716381522 (predicted 0.30110097301006317) with 157 streets
+04/11/2024 05:15:10 simulated gen52genome79: fitness = 0.443277025866035 (predicted 0.31242476773262023) with 157 streets
+04/11/2024 05:15:10 best fitness 0.2821479790521245 from generation -1
+04/11/2024 05:15:10 starting generation 53
+04/11/2024 05:19:08 simulated gen53genome365: fitness = 0.49480139274611756 (predicted 0.28263257133960723) with 153 streets
+04/11/2024 05:22:43 simulated gen53genome128: fitness = 0.42346972259130783 (predicted 0.28391703045368194) with 156 streets
+04/11/2024 05:27:01 simulated gen53genome101: fitness = 0.5618131008692275 (predicted 0.2877999235391617) with 152 streets
+04/11/2024 05:30:19 simulated gen53genome53: fitness = 0.3661402574276367 (predicted 0.28867121136188506) with 151 streets
+04/11/2024 05:33:50 simulated gen53genome0: fitness = 0.4354181527833127 (predicted 0.2888278260231018) with 164 streets
+04/11/2024 05:37:50 simulated gen53genome424: fitness = 0.5094705653071645 (predicted 0.33101077818870545) with 164 streets
+04/11/2024 05:41:22 simulated gen53genome441: fitness = 0.4263167196179039 (predicted 0.31654640662670136) with 168 streets
+04/11/2024 05:45:18 simulated gen53genome287: fitness = 0.45291200555623795 (predicted 0.3442161228656769) with 159 streets
+04/11/2024 05:48:46 simulated gen53genome76: fitness = 0.38355124100925203 (predicted 0.34984692549705504) with 146 streets
+04/11/2024 05:52:23 simulated gen53genome318: fitness = 0.45120076414070615 (predicted 0.3092239089012146) with 157 streets
+04/11/2024 05:52:23 best fitness 0.2821479790521245 from generation -1
+04/11/2024 05:52:23 starting generation 54
+04/11/2024 05:56:40 simulated gen54genome252: fitness = 0.5365993070222125 (predicted 0.2758412946462631) with 152 streets
+04/11/2024 06:00:46 simulated gen54genome305: fitness = 0.47938773705568216 (predicted 0.27937617313861846) with 147 streets
+04/11/2024 06:04:08 simulated gen54genome373: fitness = 0.40011882854229663 (predicted 0.2817050207853317) with 152 streets
+04/11/2024 06:08:28 simulated gen54genome97: fitness = 0.5411414691336152 (predicted 0.28256856274604797) with 157 streets
+04/11/2024 06:12:34 simulated gen54genome27: fitness = 0.49845032323110733 (predicted 0.28334549367427825) with 150 streets
+04/11/2024 06:16:26 simulated gen54genome392: fitness = 0.4699394349196675 (predicted 0.32936519479751586) with 151 streets
+04/11/2024 06:20:53 simulated gen54genome460: fitness = 0.5909113916247781 (predicted 0.3178267502784729) with 165 streets
+04/11/2024 06:24:01 simulated gen54genome126: fitness = 0.3882675421821033 (predicted 0.3229481432437897) with 166 streets
+04/11/2024 06:27:19 simulated gen54genome268: fitness = 0.4096220113851914 (predicted 0.32038241386413574) with 160 streets
+04/11/2024 06:30:57 simulated gen54genome422: fitness = 0.4680727234977247 (predicted 0.33390919828414917) with 159 streets
+04/11/2024 06:30:57 best fitness 0.2821479790521245 from generation -1
+04/11/2024 06:30:57 starting generation 55
+04/11/2024 06:35:15 simulated gen55genome306: fitness = 0.4968435114845437 (predicted 0.27870107400417327) with 148 streets
+04/11/2024 06:39:00 simulated gen55genome6: fitness = 0.4505337499654768 (predicted 0.279821778178215) with 154 streets
+04/11/2024 06:43:56 simulated gen55genome241: fitness = 0.6193763479002845 (predicted 0.2812836788892746) with 143 streets
+04/11/2024 06:48:01 simulated gen55genome443: fitness = 0.5225909505873824 (predicted 0.2825393259525299) with 150 streets
+04/11/2024 06:51:48 simulated gen55genome436: fitness = 0.45511933705661456 (predicted 0.28292038321495055) with 155 streets
+04/11/2024 06:55:28 simulated gen55genome128: fitness = 0.45694623703424125 (predicted 0.3115265345573425) with 160 streets
+04/11/2024 06:59:20 simulated gen55genome44: fitness = 0.4584562111312539 (predicted 0.3012898987531662) with 160 streets
+04/11/2024 07:03:29 simulated gen55genome52: fitness = 0.536076391427081 (predicted 0.32784589409828185) with 155 streets
+04/11/2024 07:07:28 simulated gen55genome116: fitness = 0.4957441332634708 (predicted 0.31483518302440644) with 170 streets
+04/11/2024 07:11:45 simulated gen55genome397: fitness = 0.5283693050083481 (predicted 0.3076555528640747) with 154 streets
+04/11/2024 07:11:45 best fitness 0.2821479790521245 from generation -1
+04/11/2024 07:11:45 starting generation 56
+04/11/2024 07:15:46 simulated gen56genome383: fitness = 0.49099029730515314 (predicted 0.27078842401504516) with 155 streets
+04/11/2024 07:20:39 simulated gen56genome382: fitness = 0.6251133347319682 (predicted 0.2744354635477066) with 150 streets
+04/11/2024 07:24:40 simulated gen56genome162: fitness = 0.5037768592503137 (predicted 0.2756842283010483) with 156 streets
+04/11/2024 07:28:05 simulated gen56genome478: fitness = 0.41443953296377006 (predicted 0.2770863740444183) with 153 streets
+04/11/2024 07:31:57 simulated gen56genome50: fitness = 0.48108480489594013 (predicted 0.2773723930120468) with 150 streets
+04/11/2024 07:35:09 simulated gen56genome389: fitness = 0.3727303574252437 (predicted 0.3342130796909332) with 158 streets
+04/11/2024 07:39:22 simulated gen56genome222: fitness = 0.5399389140493298 (predicted 0.30815167486667633) with 160 streets
+04/11/2024 07:43:58 simulated gen56genome192: fitness = 0.5815200259651002 (predicted 0.3032299188375473) with 156 streets
+04/11/2024 07:47:16 simulated gen56genome186: fitness = 0.3814627033290642 (predicted 0.3037179081439972) with 153 streets
+04/11/2024 07:51:28 simulated gen56genome180: fitness = 0.5659359149353682 (predicted 0.3149329352378845) with 155 streets
+04/11/2024 07:51:28 best fitness 0.2821479790521245 from generation -1
+04/11/2024 07:51:28 starting generation 57
+04/11/2024 07:55:56 simulated gen57genome406: fitness = 0.5590414847430613 (predicted 0.2718621413707733) with 148 streets
+04/11/2024 08:00:04 simulated gen57genome297: fitness = 0.5042341933661904 (predicted 0.27308503222465513) with 142 streets
+04/11/2024 08:04:04 simulated gen57genome462: fitness = 0.5191798673532929 (predicted 0.27525183045864104) with 154 streets
+04/11/2024 08:08:10 simulated gen57genome119: fitness = 0.5392808148964476 (predicted 0.2753642739057541) with 147 streets
+04/11/2024 08:11:43 simulated gen57genome474: fitness = 0.43977456756418565 (predicted 0.27698545122146606) with 159 streets
+04/11/2024 08:15:54 simulated gen57genome213: fitness = 0.5116591333361089 (predicted 0.331235116481781) with 156 streets
+04/11/2024 08:19:57 simulated gen57genome176: fitness = 0.4802185180000575 (predicted 0.3073043102025986) with 165 streets
+04/11/2024 08:23:35 simulated gen57genome144: fitness = 0.4185961122784537 (predicted 0.3438369045257568) with 151 streets
+04/11/2024 08:27:19 simulated gen57genome244: fitness = 0.4638790638723399 (predicted 0.3366289162635803) with 165 streets
+04/11/2024 08:31:05 simulated gen57genome145: fitness = 0.47537254578007493 (predicted 0.2948614476919174) with 153 streets
+04/11/2024 08:31:05 best fitness 0.2821479790521245 from generation -1
+04/11/2024 08:31:05 starting generation 58
+04/11/2024 08:34:41 simulated gen58genome355: fitness = 0.4106250310734356 (predicted 0.26123571014404295) with 146 streets
+04/11/2024 08:38:42 simulated gen58genome271: fitness = 0.5096700788179718 (predicted 0.2713591994047165) with 147 streets
+04/11/2024 08:42:46 simulated gen58genome73: fitness = 0.4786780405382934 (predicted 0.2755490334033966) with 147 streets
+04/11/2024 08:46:23 simulated gen58genome150: fitness = 0.41332672008011945 (predicted 0.276824458360672) with 152 streets
+04/11/2024 08:50:49 simulated gen58genome417: fitness = 0.5722445244249686 (predicted 0.27724765610694885) with 157 streets
+04/11/2024 08:55:35 simulated gen58genome148: fitness = 0.5650900432616827 (predicted 0.3010380616188049) with 149 streets
+04/11/2024 08:59:39 simulated gen58genome48: fitness = 0.5130872802155493 (predicted 0.30937547945976257) with 159 streets
+04/11/2024 09:03:17 simulated gen58genome485: fitness = 0.4350129296897451 (predicted 0.3235252733230591) with 162 streets
+04/11/2024 09:07:13 simulated gen58genome324: fitness = 0.48218984130371617 (predicted 0.3263648121356964) with 153 streets
+04/11/2024 09:10:51 simulated gen58genome151: fitness = 0.4296577890081844 (predicted 0.3191132867336273) with 165 streets
+04/11/2024 09:10:51 best fitness 0.2821479790521245 from generation -1
+04/11/2024 09:10:51 starting generation 59
+04/11/2024 09:14:50 simulated gen59genome481: fitness = 0.47874489057792513 (predicted 0.27304023122787474) with 146 streets
+04/11/2024 09:18:53 simulated gen59genome416: fitness = 0.5062351304458975 (predicted 0.273930318236351) with 148 streets
+04/11/2024 09:22:36 simulated gen59genome460: fitness = 0.4470542327231863 (predicted 0.27610991179943084) with 155 streets
+04/11/2024 09:26:22 simulated gen59genome0: fitness = 0.4571866751063319 (predicted 0.27750007700920104) with 152 streets
+04/11/2024 09:30:18 simulated gen59genome1: fitness = 0.475599342459684 (predicted 0.2775298217535019) with 151 streets
+04/11/2024 09:34:33 simulated gen59genome279: fitness = 0.54792341503999 (predicted 0.345471204996109) with 158 streets
+04/11/2024 09:37:51 simulated gen59genome112: fitness = 0.4262433588088647 (predicted 0.30873818111419676) with 147 streets
+04/11/2024 09:41:32 simulated gen59genome17: fitness = 0.43428118884637357 (predicted 0.2906180440187454) with 153 streets
+04/11/2024 09:46:04 simulated gen59genome99: fitness = 0.559673506449804 (predicted 0.31016802072525024) with 155 streets
+04/11/2024 09:50:09 simulated gen59genome271: fitness = 0.5380145677399784 (predicted 0.32383198928833007) with 152 streets
+04/11/2024 09:50:09 best fitness 0.2821479790521245 from generation -1
+04/11/2024 09:50:09 starting generation 60
+04/11/2024 09:53:45 new GNN model trained, mae = 0.08786051, r2 = 0.5569719681429679
+04/11/2024 09:58:32 simulated gen60genome159: fitness = 0.6119796180544174 (predicted 0.3076315484046936) with 146 streets
+04/11/2024 10:02:18 simulated gen60genome197: fitness = 0.5270588372152423 (predicted 0.3107082812786102) with 153 streets
+04/11/2024 10:05:54 simulated gen60genome17: fitness = 0.4293156092526835 (predicted 0.3285402109622955) with 149 streets
+04/11/2024 10:10:05 simulated gen60genome323: fitness = 0.4735969897273269 (predicted 0.3286115069389343) with 152 streets
+04/11/2024 10:13:29 simulated gen60genome218: fitness = 0.4264161481944134 (predicted 0.3344271578788757) with 154 streets
+04/11/2024 10:17:14 simulated gen60genome167: fitness = 0.4701839996886201 (predicted 0.38730141139030455) with 146 streets
+04/11/2024 10:21:20 simulated gen60genome467: fitness = 0.47844289676103935 (predicted 0.44363242816925047) with 142 streets
+04/11/2024 10:26:56 simulated gen60genome442: fitness = 0.6302328514837281 (predicted 0.3977298617362976) with 150 streets
+04/11/2024 10:31:20 simulated gen60genome277: fitness = 0.49077641969459834 (predicted 0.45097340059280394) with 147 streets
+04/11/2024 10:34:50 simulated gen60genome356: fitness = 0.5072897791580693 (predicted 0.424375207901001) with 158 streets
+04/11/2024 10:34:50 best fitness 0.2821479790521245 from generation -1
+04/11/2024 10:34:50 starting generation 61
+04/11/2024 10:38:04 simulated gen61genome221: fitness = 0.4640057939128697 (predicted 0.3205733437538147) with 152 streets
+04/11/2024 10:41:31 simulated gen61genome138: fitness = 0.4446081524124101 (predicted 0.32057442140579223) with 157 streets
+04/11/2024 10:45:50 simulated gen61genome398: fitness = 0.5027764145326421 (predicted 0.3222395408153534) with 155 streets
+04/11/2024 10:50:58 simulated gen61genome399: fitness = 0.6021523299747571 (predicted 0.3237877883911133) with 154 streets

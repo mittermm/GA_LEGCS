@@ -77,17 +77,15 @@ def get_sims(f="training_data/data.csv"):
             
             time = float(avg_distance) / float(avg_speed)
             travel_times.append(time)
-    
-    return travel_times
-    
-    #minimum = min(travel_times)
-    #maximum = max(travel_times)
-    #for i in range(len(travel_times)):
-    #    travel_times[i] = normalize(travel_times[i], minimum / 1.5, maximum)
+        
+    minimum = min(travel_times)
+    maximum = max(travel_times)
+    for i in range(len(travel_times)):
+        travel_times[i] = normalize(travel_times[i], minimum, maximum)
 
-    #assert min(travel_times) >= 0.00 # and min(travel_times) <  0.01
-    #assert max(travel_times) >  0.99 and max(travel_times) <= 1.01    
-    #return travel_times
+    assert min(travel_times) >= 0.00 and min(travel_times) <  0.01
+    assert max(travel_times) >  0.99 and max(travel_times) <= 1.01    
+    return travel_times
 
 def get_graph_data(f):
 	node_list = []

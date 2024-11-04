@@ -75,17 +75,14 @@ class GA_LEGCS(GeneticAlgorithm):
             y = normalize(sims_list[i], self.minmax[0], self.minmax[1])
             self.initial_graph_dataset.append(get_graph_data(self.population[i]), y)
             self.fitness.append(determine_fitness(y, self.population[i]))
-    
-    def update_single_fitness(self, index, travel_time):
-        self.fitness[index] = determine_fitness(travel_time, self.population[index])
-    
+        
     def update_fitness(self, travel_times):
         assert len(self.population) == self.pop_size
         assert len(travel_times) == self.pop_size
         self.fitness = [-1] * self.pop_size
         
         for i in range(self.pop_size):
-            self.update_single_fitness(i, travel_times[i])
+            self.fitness[i] = determine_fitness(travel_tims[i], self.population[i])
         
         assert min(self.fitness) > -1
     
@@ -230,9 +227,11 @@ class GA_LEGCS(GeneticAlgorithm):
                 sim = simulate(self.population[i], simID)
                 y = normalize(sim, self.minmax[0], self.minmax[1])
                 current_fitness = determine_fitness(y, self.population[i])
+                self.fitness[i] = current_fitness
+                self.runtime_graph_dataset.append(get_graph_data(self.population[i]), y) 
+
                 print("pred fitness ", self.fitness[i], " to sim fitness ", current_fitness)
                 logging.info("simulated " + simID + ": fitness = " + str(current_fitness) + " (predicted " + str(self.fitness[i]) + ") with " + str(len(self.population[i])) + " streets")
-                self.fitness[i] = current_fitness
                 
                 if current_fitness < best_fitness:
                     print("We found a new best network!")
@@ -243,9 +242,7 @@ class GA_LEGCS(GeneticAlgorithm):
                     
                     with open("output/" + simID + ".csv", 'w') as file:
                         writer = csv.writer(file)
-                        writer.writerows(self.population[i])
-                
-                self.runtime_graph_dataset.append(get_graph_data(self.population[i]), y) 
+                        writer.writerows(self.population[i])                
 
             print("best sim ", best_sim, " with ", len(best_genome), " streets from Gen", best_gen)
             print("best fitness: ", best_fitness)

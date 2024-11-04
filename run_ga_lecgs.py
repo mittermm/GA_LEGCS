@@ -1,4 +1,4 @@
-from ga_nosims import GA_NOSIMS
+from ga_legcs import GA_LEGCS
 from ga.ga_utils import get_initial_population, get_sims
 
 population_size = 500

@@ -219,7 +219,7 @@ def get_sims(f="training_data/data.csv"):
             assert int(network) == i
             i += 1
             
-            time = float(avg_distance) * float(avg_speed)
+            time = float(avg_distance) / float(avg_speed)
             travel_times.append(time)
     
     return travel_times
