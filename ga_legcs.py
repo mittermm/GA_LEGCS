@@ -158,8 +158,8 @@ class GA_LEGCS(GeneticAlgorithm):
             parent2 = self.tournament_selection()
             
             # crossover (implemented in ga.ga)
-            # child1, child2 = self.crossover(parent1, parent2)
-            child1, child2 = self.edge_based_crossover(parent1, parent2)
+            child1, child2 = self.crossover(parent1, parent2)
+            #child1, child2 = self.edge_based_crossover(parent1, parent2)
             
             # mutation (implemented in ga.ga)
             child1 = self.mutate(child1)
@@ -216,13 +216,13 @@ class GA_LEGCS(GeneticAlgorithm):
             self.update_fitness(predictions)
             
             # simulate
-            top_predictions = list(np.argsort(self.fitness)[:int(0.03 * self.pop_size)])
-            random_preds = []
-            while len(random_preds) < 5:
-                idx = random.randint(0, self.pop_size - 1)
-                if idx not in top_predictions:
-                    random_preds.append(idx)
-            sim_indices = top_predictions + random_preds
+            top_predictions = list(np.argsort(self.fitness)[:int(0.1 * self.pop_size)])
+            #random_preds = []
+            #while len(random_preds) < 5:
+            #    idx = random.randint(0, self.pop_size - 1)
+            #    if idx not in top_predictions:
+            #        random_preds.append(idx)
+            sim_indices = top_predictions # + random_preds
             for i in sim_indices:
                 simID = "gen" + str(generation) + "genome" + str(i)
                 current_edge_list = self.population[i].copy()
