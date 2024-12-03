@@ -56,8 +56,14 @@ def simulate(edge_list, simID):
     time = avg_distance / avg_speed
     return time    
     
-def determine_fitness(travel_time, edge_list):
-    return travel_time + max(0, len(edge_list) - 100) * 0.001
+def determine_fitness(travel_time, edge_list, max_street_length):
+    # return travel_time + max(0, len(edge_list) - 100) * 0.001
+    total_length = 0
+    for [_, _, l, _, _] in edge_list:
+        total_length += float(l)
+    normalized_length = total_length / max_street_length
+    
+    return travel_time + normalized_length
 
 class GA_LEGCS(GeneticAlgorithm):
     
@@ -69,21 +75,31 @@ class GA_LEGCS(GeneticAlgorithm):
         
         self.minmax = [min(sims_list) / 1.5, max(sims_list)]
         print("normalisation: min = ", self.minmax[0], " max = ", self.minmax[1])
+        self.max_street_length = self.determine_street_length_normalizer()
         self.initial_graph_dataset = GraphDataset([],[])
         self.runtime_graph_dataset = GraphDataset([],[])
         self.fitness = []
         for i in range(self.pop_size):
             y = normalize(sims_list[i], self.minmax[0], self.minmax[1])
             self.initial_graph_dataset.append(get_graph_data(self.population[i]), y)
-            self.fitness.append(determine_fitness(y, self.population[i]))
-        
+            self.fitness.append(determine_fitness(y, self.population[i], self.max_street_length))
+    
+    def determine_street_length_normalizer(self):
+        max_length = 0
+        for edge_list in self.population:
+            current_length = 0
+            for [_,_,l,_,_] in edge_list:
+                current_length += float(l)
+            max_length = max(max_length, current_length)
+        return max_length
+    
     def update_fitness(self, travel_times):
         assert len(self.population) == self.pop_size
         assert len(travel_times) == self.pop_size
         self.fitness = [-1] * self.pop_size
         
         for i in range(self.pop_size):
-            self.fitness[i] = determine_fitness(travel_times[i], self.population[i])
+            self.fitness[i] = determine_fitness(travel_times[i], self.population[i], self.max_street_length)
         
         assert min(self.fitness) > -1
     
@@ -217,6 +233,7 @@ class GA_LEGCS(GeneticAlgorithm):
             
             # simulate
             top_predictions = list(np.argsort(self.fitness)[:int(0.1 * self.pop_size)])
+            #top_predictions = list(np.argsort(self.fitness)[:int(0.03 * self.pop_size)])
             #random_preds = []
             #while len(random_preds) < 5:
             #    idx = random.randint(0, self.pop_size - 1)
@@ -229,7 +246,7 @@ class GA_LEGCS(GeneticAlgorithm):
                 sim = simulate(self.population[i], simID)
                 y = normalize(sim, self.minmax[0], self.minmax[1])
                 print(sim, " normalised with min = ", self.minmax[0], " max = ", self.minmax[1], " to ", y)
-                current_fitness = determine_fitness(y, self.population[i])
+                current_fitness = determine_fitness(y, self.population[i], self.max_street_length)
                 print("pred fitness ", self.fitness[i], " to sim fitness ", current_fitness)
                 logging.info("simulated " + simID + ": fitness = " + str(current_fitness) + " (predicted " + str(self.fitness[i]) + ") with " + str(len(self.population[i])) + " streets")
                 self.fitness[i] = current_fitness
