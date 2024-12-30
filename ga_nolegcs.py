@@ -29,6 +29,8 @@ class GA_NOLEGCS(GA_LEGCS):
         self.mutation_rate = mutation_rate
         
         self.minmax = [min(sims_list) / 1.5, max(sims_list)]
+        print("normalisation: min = ", self.minmax[0], " max = ", self.minmax[1])
+        self.max_street_length = self.determine_street_length_normalizer()        
         self.fitness = []
         for i in range(self.pop_size):
             y = normalize(sims_list[i], self.minmax[0], self.minmax[1])
@@ -49,6 +51,7 @@ class GA_NOLEGCS(GA_LEGCS):
         for generation in range(self.generations):
             print("Generation ", generation)
             logging.info("starting generation " + str(generation))
+            self.mutation_rate = self.mutation_rate - 0.04
             
             # evolve
             self.evolve()
@@ -59,8 +62,8 @@ class GA_NOLEGCS(GA_LEGCS):
                 sim = simulate(self.population[i], simID)
                 y = normalize(sim, self.minmax[0], self.minmax[1])
                 current_fitness = determine_fitness(y, self.population[i])
-                print("pred fitness ", self.fitness[i], " to sim fitness ", current_fitness)
-                logging.info("simulated " + simID + ": fitness = " + str(current_fitness) + " (predicted " + str(self.fitness[i]) + ") with " + str(len(self.population[i])) + " streets")
+                print("sim fitness ", current_fitness)
+                logging.info("simulated " + simID + ": fitness = " + str(current_fitness) " with " + str(len(self.population[i])) + " streets")
                 self.fitness[i] = current_fitness
                 
                 if current_fitness < best_fitness:
